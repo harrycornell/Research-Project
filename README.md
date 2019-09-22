@@ -2,8 +2,8 @@
 (text between brackets to be removed)
 
 > * Group Name: Indiana Jones
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed later)
+> * Group participants names: Cornell, Lincoln; Necaise, Aaron; Robkin, Jessica; Vaz, Karina
+> * Project Title: Cultural Heritage Transportation Simulation Project 
 
 ## General Introduction
 
