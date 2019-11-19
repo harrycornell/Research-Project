@@ -400,13 +400,13 @@ The results for each route is shown below.
 
 ### 6.4 Graph Tea (Change the name) Results
 
-Write how Graph Tea works.  Record a video of the Graph Tea running.  Show the final result in Graph Tea.  Show the result in KMZ.
+Graph Tea was used to calculate the route with the least risk calcualted on based on the routes attributes and survey results.  The cities were loaded into Graph Tea in their respective geographical locations.  The city's latitude and longitude was used to place the city node for Graph Tea in the program screen space coordinates.  This allow for an accurate geospacial resprestaiton of the city's location within Graph Tea.
 
-Graph Tea was used to calculate the route with the least risk calcualted on based on the routes attributes and survey results.  The cities were loaded into Graph Tea in their respective geographical locations.  The routes were defined using the city to city routes with the weights defined from the results each routes attributes and the weighting determined by the Route Decision Questionnaire results.  The input in the Graph Tea program is shown below.
+The routes were defined using the city to city routes with the weights defined from the results each routes attributes and the weighting determined by the Route Decision Questionnaire results.  The route weight that was calculated for each route represents the amount of risk associated with that route.  The input into Graph Tea is show below.
 
 <img src="images/GraphTeaInput.png" width="400">
 
-Graph Tea was ran with the input of the cities, routes, and weights to find the least risk path between the source city and the desitnation city.  For this, the Dijkstra algorithm was ran.  Within the program, the route with the smallest weights was calculated.  The results are shown below in the image and a link to a video showing the Dijkstra algorithm being ran.
+Graph Tea was ran with the input of the cities, routes, and weights to find the least risk path between the source city and the desitnation city.  For this, the Dijkstra algorithm was ran.  Within the program, the route with the smallest weights was calculated, whih represents the route with the least amount of risk.  The results are shown below in the image and a link to a video showing the Dijkstra algorithm being ran.
 
 <img src="images/GraphTeaOutputPS.png" width="400">
 
