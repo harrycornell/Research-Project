@@ -306,20 +306,22 @@ With the above formula, the Composite value was calculated for each attribute.
 | Population Density | 2.07 |
 | Complexity of the Route | 2.00 |
 
-Each destination city was assigned a cartel that controlled the particular area.  For this projected, it was assumed that the begining city of Zihuatanejo was the control cartel, with a weighting of 1.  If a city was in a rival cartel area, then the cartel weighting was set to 0.  If the city had shared or multiple controls from cartels, it was given a partial weighting of 0.33 since there were three cartels in the study.
+Each destination city was assigned a cartel that controlled the particular area.  For this project, it was assumed that the begining city of Zihuatanejo was the control cartel, with a weighting of 0 (least risky).  If a city was in a rival cartel area, then the cartel weighting was set to 1 (most risky).  If the city had shared or multiple controls from cartels, it was given a partial weighting of 0.33 since there were three cartels in the study.
 
 | Cartel | Weighting |
 | --- | --- |
 | Shared | 0.33 |
-| Sinaloa | 0.00 |
-| Tamaulipas | 0.00 |
-| Tierra Caliente | 1.00 |
+| Sinaloa | 1.00 |
+| Tamaulipas | 1.00 |
+| Tierra Caliente | 0.00 |
 
 Each of the routes attributes were normalized to range from 0 to 1.  The normalization was done by calculating the value over the range of the minimum and maximum for each attribute using the following formula.
 
 Normalized Attribute = (Attribute Value - Min Attribute Value) / (Max Attribute Value - Min Attribute Value)
 
-The assending or dessending order was based on the Low/High response from the Route Decision Questionnaire results.  Each attribute was then scaled by the attribute scale and summed.
+The assending or dessending order was based on the Low/High response from the Route Decision Questionnaire results.
+
+Each attribute for the route was then scaled by the attribute Composite value and summed together.  The formula is shown below that was used to calculate the route weight.
 
 Route Weight = (Distance * Distance to Next Desination Composite) + (Circuity * Complexity of the Route Composite) + (Crime * Crime Rate Composite) + (Popluation * Population Density Composite) + (Cartel * Presence of Competing Gangs Composite)
 
