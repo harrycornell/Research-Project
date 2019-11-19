@@ -34,7 +34,7 @@ The looting of historical sites is both damaging to the cultural heritage of loc
 
 The current project will utilize graph-theory to develop a series of routes within known smuggling networks. Our modeled smuggling network will take into account highly related factors like circuity and border security in order to generate routes with better validity than what can be achieved with shortest-path routing. A series of surveys and questionnaires will be used to gain additional insight about our model and smuggling behavior. The goal is for this model of smuggling to be extended to the MENA region where it can be used to predict artifact smuggling routes.
 
-[PUT IN SECTION TO EXPLAIN THIS IS NOT THE SHORTEST PATH, BUT LEAST RISK PATH.]
+The shortest path routing will be based on risk, not distance.  Along the route, there will be assesments made for the amount of risk using several factors.  Once these risks have been identified and assigned, a short path based on the least risk will be found.  This will be assumed to be the most likely path that the smugglers will take.
 
 ### 2.3 Hypotheses:
 
