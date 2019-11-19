@@ -146,7 +146,7 @@ A map was studied showing the major road networks between Zihuatanejo to Nuevo L
 
 With the cities defined, informatin was gathered about each city to start to form the attributes that will be applied to the routes when generating the various weights.  It was choosen to use the destination city's information to apply to the route's attributes when calculating the weights.  
 
-City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas PUT REFERENCE IN HERE.  This map was overlayed onto the route maps to allow us to determine which cartels control the different areas for each city.
+City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas **PUT REFERENCE IN HERE**.  This map was overlayed onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="400">
 
@@ -189,7 +189,7 @@ The city information was collected with the following information.
 | Zamora | 62.9 | 200205 | Tierra Caliente | 
 | Zihuatanejo | 103.8 | 132894 | Tierra Caliente | 
 
-The routes were defined next using the maps that were generated.  Each route was given a name of a from and to city.  The routes linear distance was measured using Google Earth.  The routes road distance was calculated using Google Maps.  These two attributes were used to calculate the circuity of the route by dividing the path distance by the linear distance.  The destination city's crime rate and population was also tabulated for the routes.
+The routes were defined next using the maps that were generated.  Each route was given a name of a from and to city.  The routes linear distance was measured using Google Earth.  The routes road distance was calculated using Google Maps.  These two attributes were used to calculate the circuity of the route by dividing the route distance by the linear distance.  The destination city's crime rate and population was also tabulated for the routes.
 
 | Route | Linear Distance (mi) | Path Distance (mi) | Circuity | Destination City Crime Rate | Destination Population |
 | --- | --- | --- | --- | --- | --- |
@@ -262,17 +262,17 @@ The routes were defined next using the maps that were generated.  Each route was
 | Sabinas to Piedras Negras | 63.8 | 75.6 | 1.2 | 7.1 | 168297 |
 | Piedras Negras to Nuevo Laredo | 103.0 | 110.0 | 1.1 | 15.2 | 432926 |
 
-### 5.3 Graph Tea Writeup
+### 5.5 Graph Tea Writeup
 
-Write up a little about Graph Tea.  Then show a pic of the routes and cities in Graph Tea.
+**Write up a little about Graph Tea.  Then show a pic of the routes and cities in Graph Tea.  This should be in section 6 since that is where we calculate the data to enter into Grpah Tea**
 
 ## 6. Results
 
 ### 6.1 Route Decision Questionnaire Responses
 
-[LHC: update table 6.1 to reflect normalized data, descending order]
+[LHC: update table 6.1 to reflect normalized data, descending order] **That is shown in the results a few section below**
 
-The results for the questionnaire was gathered from a pilto study using the class as subjects.  The Score and Ranking attribute were averaged among the results.  The Low/High was taken by using the value that had the majority of the responses.  The averaged information is shown below.
+The results for the questionnaire was gathered from a pilot study using the class as subjects.  The different route attributes had their respetive Score and Ranking attributes averaged.  The Low/High value for each attribute was taken by using the value that had the majority of the responses.  The averaged information is shown below.  A higher Score attribute value showed that the attribute was more important.  A lower Ranking for the attribute showed that the attribute was more important when compared to the other attributes.
 
 | Attribute | Score | Low/High | Ranking |
 | --- | --- | --- | --- |
@@ -288,12 +288,13 @@ Write up about the responses.
 
 ### 6.3 Calculating Attribute Weights
 
-[LHC: add in paragraph re: normalizing data; update tables/data; include rerun graphtea output]
+[LHC: add in paragraph re: normalizing data; update tables/data; include rerun graphtea output] **This is talked about below**
 
-To apply the weights of the different attributes, scales were applied to each attribute.  The scale was based on the Score and Ranking attribute that was dirived from the Route Decision Questionnaire.  These scales will be used against each routes attributes to detemine the final weighting of the attribute.  The scales were calculated using the following formula to allow for the more risky attribute to have a higher value.  The Score and Rankings were based on a scale of 1 - 5, therefore 5 was set to be the most risky for the Composite calculation.
+To apply the weights of the different attributes, scales were applied to each attribute.  The scale was based on the Score and Ranking attribute that was dirived from the Route Decision Questionnaire.  These scales will be used against each routes attributes to detemine the final weighting of the route.  The scales were calculated using the following formula to allow for the more risky attribute to have a higher value.  The Score were based on a scale of 1 - 5, where 5 was set to be the most risky. The Ranking were based on a scale of 1 - 5, where 1 was set to be the most risky.  For the Composite calculation, the Ranking was reveresed to allow the Score and Ranking to use a scale of 1 - 5 with 5 being the most risky.  This formula for calculating the Composite score is shown below there the Ranking was reversed, then the Score and the Ranking was averaged.
 
 Composite = Average(Score, 5.00 - Ranking)  
-[JRR NOTE: i'm confused by this formula. are you subtracting the ranking from 5.0 and then multiplying that by the average? The average of the ranking or the average of the score? Either way, neither produce the numbers in the below table.]
+
+[JRR NOTE: i'm confused by this formula. are you subtracting the ranking from 5.0 and then multiplying that by the average? The average of the ranking or the average of the score? Either way, neither produce the numbers in the below table.] **Gangs, average of (4.71 and (5 - 1.86) = average of (4.71 and 3.14) which is 3.93**
 
 With the above formula, the Composite value was calculated for each attribute.
 
