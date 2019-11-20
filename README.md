@@ -24,7 +24,7 @@ Computer simulations offer an option for this research. By first understanding t
 
 <img src="images/Medel2015_MXRoutes.jpg" width="350" >  <img src="images/graphtheoryexample.png" width="400" >
 
-In an attempt to aid cultural heritage workers, international NGO's, and local stakeholders, this project addresses the problem of illicit antiquities trafficking by using computer simulations to illuminate the relationship between existing transportation infrastructures and the paths criminals use to transport stolen antiquities from archaeological sites. We believe this project will provide proof of concept that computer simulations can reliably predict the routes that smugglers would select when they choose to hide in plain sight. [JRR: FIX THIS!]
+In an attempt to aid cultural heritage workers, international NGO's, and local stakeholders, this project addresses the problem of illicit antiquities trafficking by using computer simulations to illuminate the relationship between existing transportation infrastructures and the paths criminals use to transport stolen antiquities from archaeological sites. We believe this project will provide proof of concept that computer simulations can reliably identify routes that smugglers would select when moving illicit goods.  
 
 ### 2.1 Motivation
 
@@ -146,7 +146,7 @@ A map was studied showing the major road networks between Zihuatanejo to Nuevo L
 
 With the cities defined, information was gathered about each city to start to form the attributes that will be applied to the routes when generating the various weights.  It was decided to use the destination city's information to apply to the route's attributes when calculating the weights.  
 
-City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas **PUT REFERENCE IN HERE**.  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
+City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Visualizing Mexico's drug catrtels, 2001).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="400">
 
@@ -281,8 +281,7 @@ The results for the questionnaire was gathered from a pilot study using the clas
 | Complexity of the Route | 2.86 | Low | 3.86 |
 
 ### 6.2 Regional Influence Questionnaire Response
-
-Write up about the responses.
+Given the nature of this survey, the pilot study was used as an opportunity to receive feedback on question structure and organization. The Regional Influence Questionnaire will be used in future work, as discussed in section 8.2.  
 
 ### 6.3 Calculating Attribute Weights
 
@@ -412,7 +411,7 @@ The video will go to a link that can download the mp4 file for playback.
 
 ### 7.1 Compare to other studies results
 
-[AN & JRR: fill out section, include images, benefits of using this method v. medel method]
+[AN & JRR: fill out section, include images, benefits of using this method v. medel method  - Do we  need something in here about how we would validate in a perfect world?]
 
 ## 8. Future Work
 
@@ -421,6 +420,8 @@ The video will go to a link that can download the mp4 file for playback.
 ### 8.1 Expand this to use more turn-by-turn simulation
 
 ### 8.2 Apply to MENA
+
+This project originated from research into the looting of archaeological sites wthin the Middle East and North Africa region and so plans for future work include applying these methods to transportation systems within this area. It would be during this phase of the project that the Regional Questionnaire would be distrubuted via (the channels mentioned abbove). Further, to increase applicablility to the MENA region, aome attributes would need to be weighted as more appropriate measures, including replacing cartel-control with faction-control. 
 
 [Insert regional influence survey here]
 
@@ -447,3 +448,5 @@ Proulx, B. B. (2013). Archaeological Site Looting in “Glocal” Perspective: N
 Rodríguez-Puente, R., & Lazo-Cortés, M. S. (2013). Algorithm for shortest path search in Geographic Information Systems by using reduced graphs. SpringerPlus, 2(1). https://doi.org/10.1186/2193-1801-2-291
 
 Terrill, W. Andrew. (2017). Antiquities Destruction and Illicit Sales as Sources of ISIS Funding and Propaganda. Carlisle, PA: U.S. Army War College. 
+
+Visualizing Mexico’s drug cartels: A roundup of maps. (2001, November 30). Retrieved November 20, 2019, from http://www.storybench.org/visualizing-mexicos-drug-cartels-roundup-maps/
