@@ -270,8 +270,6 @@ The routes were defined next using the maps that were generated.  Each route was
 
 ### 6.1 Route Decision Questionnaire Responses
 
-[LHC: update table 6.1 to reflect normalized data, descending order] **That is shown in the results a few section below**
-
 The results for the questionnaire was gathered from a pilot study using the class as subjects.  The different route attributes had their respective Score and Ranking attributes averaged.  The Low/High value for each attribute was taken by using the value that had the majority of the responses.  The averaged information is shown below.  A higher Score attribute value showed that the attribute was more important.  A lower Ranking for the attribute showed that the attribute was more important when compared to the other attributes.
 
 | Attribute | Score | Low/High | Ranking |
@@ -288,13 +286,9 @@ Write up about the responses.
 
 ### 6.3 Calculating Attribute Weights
 
-[LHC: add in paragraph re: normalizing data; update tables/data; include rerun graphtea output] **This is talked about below**
-
 To apply the weights of the different attributes, scales were applied to each attribute.  The scale was based on the Score and Ranking attribute that was derived from the Route Decision Questionnaire.  These scales will be used against each routes attributes to determine the final weighting of the route.  The scales were calculated using the following formula to allow for the more risky attribute to have a higher value.  The Score were based on a scale of 1 - 5, where 5 was set to be the most risky. The Ranking were based on a scale of 1 - 5, where 1 was set to be the most risky.  For the Composite calculation, the Ranking was reversed to allow the Score and Ranking to use a scale of 1 - 5 with 5 being the most risky.  This formula for calculating the Composite score is shown below there the Ranking was reversed, then the Score and the Ranking was averaged.
 
 Composite = Average(Score, 5.00 - Ranking)  
-
-[JRR NOTE: i'm confused by this formula. are you subtracting the ranking from 5.0 and then multiplying that by the average? The average of the ranking or the average of the score? Either way, neither produce the numbers in the below table.] **Gangs, average of (4.71 and (5 - 1.86) = average of (4.71 and 3.14) which is 3.93**
 
 With the above formula, the Composite value was calculated for each attribute.
 
