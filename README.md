@@ -10,11 +10,11 @@ This study addresses the viability of using computer simulations to identify the
 
 ## 2. General Introduction
 
-Throughout the Middle East and North Africa (MENA) region, organized criminal gangs have taken advantage of political instability to loot archaeological sites for the purpose of selling illicit antiquities to fund political insurgency and terrorist organizations (Terrill, 2007). While looting in these areas is a centuries-old practice (Luke & Kersel, 2005), advances in technology and a growing demand for antiquities from this region has caused a dramatic increase in these activites (Terrill, 2007).  
+Throughout the Middle East and North Africa (MENA) region, organized criminal gangs have taken advantage of political instability to loot archaeological sites for the purpose of selling illicit antiquities to fund political insurgency and terrorist organizations (Terrill, 2007). While looting in these areas is a centuries-old practice (Luke & Kersel, 2005), advances in technology and a growing demand for antiquities from this region has caused a dramatic increase in these activities (Terrill, 2007).  
 
 <img src="images/DestructionofPalmyra2016_ArbreshInfo.jpg" width="360" > <img src="images/ISISPropoganda_DestructionofNimrud_BBCNews.jpg" width="485" >
 
-During the insurgency of Syria and Iraq by ISIS in 2014, the terrorist organization often televised the systematic destruction of what they termed “idolatrous” heritage. Using this as justification for the destruction of cultural heritage sites in the region, ISIS quietly looted these sites prior to their televised destruction, with the funds gained on the black market used to further support their effort (Terrill 2017). During this same time period, ISIS routinely issued permits to groups in the areas under their control, allowing for the looting of archaeological and cultural heritage sites, with the permittees sharing a portion of the black-market profits with ISIS in exchange for the right to keep some of the profits for themselves. The looting of these sites and the subsequent improvements to domestic and household structures in the areas bordering the sites has been observed through analysis of satelle imagery of these locations (Casana, 2015; Parcak, 2013). In the intervening years, while the presence of ISIS in the region has been marginalized, the looting of archaeological sites continues in the destabilized region (CITE). Oftentimes, the looting of these resources is not known until months after the fact, often seen by satellite imagery or when locals discuss their activities with archaeologists returning to some of the affected areas to continue their research (Casana, 2015; Proulx, 2013). 
+During the insurgency of Syria and Iraq by ISIS in 2014, the terrorist organization often televised the systematic destruction of what they termed “idolatrous” heritage. Using this as justification for the destruction of cultural heritage sites in the region, ISIS quietly looted these sites prior to their televised destruction, with the funds gained on the black market used to further support their effort (Terrill 2017). During this same time period, ISIS routinely issued permits to groups in the areas under their control, allowing for the looting of archaeological and cultural heritage sites, with the permit holders sharing a portion of the black-market profits with ISIS in exchange for the right to keep some of the profits for themselves. The looting of these sites and the subsequent improvements to domestic and household structures in the areas bordering the sites has been observed through analysis of satellite imagery of these locations (Casana, 2015; Parcak, 2013). In the intervening years, while the presence of ISIS in the region has been marginalized, the looting of archaeological sites continues in the destabilized region (CITE). Oftentimes, the looting of these resources is not known until months after the fact, often seen by satellite imagery or when locals discuss their activities with archaeologists returning to some of the affected areas to continue their research (Casana, 2015; Proulx, 2013). 
 
 <img src="images/TellMardikh_Syria_2014.jpg" width="430" >  <img src="images/TellesSinn_Syria_2014.png" width="330" >
 
@@ -34,7 +34,7 @@ The looting of historical sites is both damaging to the cultural heritage of loc
 
 The current project will utilize graph-theory to develop a series of routes within known smuggling networks. Our modeled smuggling network will take into account highly related factors like circuity and border security in order to generate routes with better validity than what can be achieved with shortest-path routing. A series of surveys and questionnaires will be used to gain additional insight about our model and smuggling behavior. The goal is for this model of smuggling to be extended to the MENA region where it can be used to predict artifact smuggling routes.
 
-The shortest path routing will be based on risk, not distance.  Along the route, there will be assesments made for the amount of risk using several factors.  Once these risks have been identified and assigned, a short path based on the least risk will be found.  This will be assumed to be the most likely path that the smugglers will take.
+The shortest path routing will be based on risk, not distance.  Along the route, there will be assessments made for the amount of risk using several factors.  Once these risks have been identified and assigned, a short path based on the least risk will be found.  This will be assumed to be the most likely path that the smugglers will take.
 
 ### 2.3 Hypotheses:
 
@@ -60,13 +60,13 @@ Geopolitical conflict will influence region-specific routes.
 
 ## 3. Related Work / Literature Review
 
-One obstacle for predicting the routes that looters take while transporting goods away from archeological sites is understanding how the political or geographical conditions of a region could influence the routing decisions made by smugglers. While looting in the MENA (Middle East and North Africa) region deserves unique considerations because of the activity’s relationship to terrorist groups, certain behaviors might hold true  across regions (Proulx, 2013).  From this perspective, understanding looting behavior at a global level could serve to inform our model for looting in the MENA region. 
+One obstacle for predicting the routes that looters take while transporting goods away from archaeological sites is understanding how the political or geographical conditions of a region could influence the routing decisions made by smugglers. While looting in the MENA (Middle East and North Africa) region deserves unique considerations because of the activity’s relationship to terrorist groups, certain behaviors might hold true  across regions (Proulx, 2013).  From this perspective, understanding looting behavior at a global level could serve to inform our model for looting in the MENA region. 
   
-There is some anecdotal evidence to suggest that looters often do not take precautions to avoid detection by archeologists or law officials after they have stolen historical goods (Proulx, 2013). In this study on regional attitudes towards looting,  Proulx (2013) found that the majority of archeological field-workers come into contact with looters while working. Further, nearly half of these field-workers have been solicited by looters to purchase back stolen goods. Data from this study was aggregated from historical sites located broadly throughout the world, which provides some insight on looting activity in MENA. However, this study does not help to explain routing behavior that is dependent on border customs and region-specific faction politics. 
+There is some anecdotal evidence to suggest that looters often do not take precautions to avoid detection by archaeologists or law officials after they have stolen historical goods (Proulx, 2013). In this study on regional attitudes towards looting,  Proulx (2013) found that the majority of archaeological field-workers come into contact with looters while working. Further, nearly half of these field-workers have been solicited by looters to purchase back stolen goods. Data from this study was aggregated from historical sites located broadly throughout the world, which provides some insight on looting activity in MENA. However, this study does not help to explain routing behavior that is dependent on border customs and region-specific faction politics. 
 
 Transporting illegal antiquities has it's own unique set of complications (proper handling, packaging, packing) (CITE), however the methods selected to transport these items over land shares many similarities with the trafficking of other illicit goods (Alderman, 2012; Basu; 2013, Basu, 2014). Understanding how these goods are moved over land is useful in informing our transportation models and selecting appropriate variables for study.  To further our understanding of how smugglers historically move illicit goods over land, a review of current research in the field of transnational smuggling was necessary. Transnational smugglers traditionally select two methods to move goods from destination to destination, moving either with stealth or blending in with traditional supply chain movements (Basu, 2013; Basu, 2014). Traffickers make these decisions in a rational way, looking to make the most profits with the fewest risks (Medel, Lu, & Chow, 2015). Medel et al. (2015) investigated the movement of drugs from Mexico into the United States, using crime data to inform transportation prediction models. For these models, an understanding of the mindset of the drug cartels was necessary. The movement of illicit goods requires planning and precision, with traffickers often making well-informed decisions about the routes they use, taking into consideration the political environments the goods must move through, the quality of available routes, and environmental concerns that may impact transport (Medel et al., 2015). Medel et al. (2015) use these factors in conjunction with socio-demographic and crime data to define their cost for moving drugs along the road networks in Mexico. This methodology will inform our own weighting criteria.
   
-In finding the most likely path that smugglers may take, we are using graph theory to help predict the routes.  In graphing theory, vertices are points (also refered to as nodes) defined with edges that connect the vertices to form a graph.  The edges can be unidirectional or bidirectional.  To use the graph theory to help in predicting the shortest route, the graph is created to represent a geographic layout of a region, in our case the southern part of Mexico.  The vertices represents the cities that are along the various routes that the smugglers could take.  The edges represents the paths between the cities which are the major roadways that connect the cities.  By defining the veriticies and edges to represent the geographic routes in Mexico, a graph is created to help in determining the most likely route smugglers would take.
+In finding the most likely path that smugglers may take, we are using graph theory to help predict the routes.  In graphing theory, vertices are points (also referred to as nodes) defined with edges that connect the vertices to form a graph.  The edges can be unidirectional or bidirectional.  To use the graph theory to help in predicting the shortest route, the graph is created to represent a geographic layout of a region, in our case the southern part of Mexico.  The vertices represents the cities that are along the various routes that the smugglers could take.  The edges represents the paths between the cities which are the major roadways that connect the cities.  By defining the vertices and edges to represent the geographic routes in Mexico, a graph is created to help in determining the most likely route smugglers would take.
   
 In order to find the most likely route using graph theory, the route with the smallest weighted path will be found.  To accomplish this, the edges (which represents the routes between the cities) will be given weights based on some attributes.  These attributes will include the following:
 
@@ -76,13 +76,13 @@ In order to find the most likely route using graph theory, the route with the sm
 * Population
 * Cartel controlled
 
-These attribures will defined the weight given to each edge in the graph. In our research, these attributes have been used in other research for predicting paths smugglers would take in Mexico (Medel et al., 2015).
+These attributes will defined the weight given to each edge in the graph. In our research, these attributes have been used in other research for predicting paths smugglers would take in Mexico (Medel et al., 2015).
 
 With the graph constructed and weights applied to the edges, the shorted route can be found.  Although the shortest route can be found manually, there are algorithms that can find the shortest path.  One such algorithm is Dijkstra’s Algorithm (Rodríguez-Puente & Lazo-Cortés, 2013) which will be used to determine the shortest path though the graph.  The Dijkstra’s Algorithm used with a graph tree simulation program can determine the shortest path given the input quickly.  The route determined by the Dijkstra’s Algorithm will represent the best route, not based on distance, but based on lowest risk to the smuggler.  
   
 ## 4. Research Method
 
-As previously mentioned, the current project aims to address the lack of information surrounding smugglings routes in the MENA region by developing a model that can identify the most-likely long-distance pathways taken by smugglers. These pathways will consider attributes that are favorable for trafficking in addition to considering the standard least-distance/least-time approach. This will be the initial step in developing a more robust model that can be applied to the MENA region in future research. 
+As previously mentioned, the current project aims to address the lack of information surrounding smuggling routes in the MENA region by developing a model that can identify the most-likely long-distance pathways taken by smugglers. These pathways will consider attributes that are favorable for trafficking in addition to considering the standard least-distance/least-time approach. This will be the initial step in developing a more robust model that can be applied to the MENA region in future research. 
  
 * First, using a similar approach as Medel (2015), a graph model will be created that considers distance, faction presence, crime rate, and route circuity. Based on the drug smuggling literature,  these regional crime statistics likely contribute to the routing decisions made by organized criminal networks. 
 
@@ -92,7 +92,7 @@ As previously mentioned, the current project aims to address the lack of informa
 
 We anticipate drawing from two separate participant populations: one sample from the general college population and the other from participants living in the MENA region. For the college student sample, 30 undergraduate students (age 18+) will be recruited using the University of Central Florida's SONA research system. These students will be asked to complete a short questionnaire on routing decisions.
 
-From the MENA region, 30 adults (18+) who live (or who have lived) in the region will be recruited through Facebook advertisement. It is expected that a portion of these participants will be nonrespondents due to the nature of the content on the survey. 
+From the MENA region, 30 adults (18+) who live (or who have lived) in the region will be recruited through Facebook advertisement. It is expected that a portion of these participants will be non-respondents due to the nature of the content on the survey. 
 
 ### 4.2 Materials
 
@@ -106,11 +106,11 @@ The second questionnaire, titled the Regional Influence Questionnaire, will be d
 
 ### 5.1 Routing Model
 
-Drawing from the methods developed by Medel (2015), our graph model will be developed using a high-level overview of Central America. In the graph, nodes will represent major waypoints located throughout the region. These waypoints will consist of several dozen major cities, towns, and highway entrances. Using a qualitative approach, historical data will be gathered on the crime rate and criminal faction presence of that node's surrounding area. This data will be systematically applied to that nodes edges. 
+Drawing from the methods developed by Medel (2015), our graph model will be developed using a high-level overview of Central America. In the graph, nodes will represent major way-points located throughout the region. These way-points will consist of several dozen major cities, towns, and highway entrances. Using a qualitative approach, historical data will be gathered on the crime rate and criminal faction presence of that node's surrounding area. This data will be systematically applied to that nodes edges. 
 
 ### Inset flow chart here
 
-Links between nodes will represent the pathway between major waypoints. As a base, these links will be given a value that corresponds to the distance between nodes. Then, this distance will be weighted by population, route complexity, crime rate and faction presence of connected nodes. Once this network has been established, routing will be completed using Dijkstra's shortest path algorithm. Because the distance between nodes was weighed by our regional variables, this model will represent the path of least-risk.
+Links between nodes will represent the pathway between major way-points. As a base, these links will be given a value that corresponds to the distance between nodes. Then, this distance will be weighted by population, route complexity, crime rate and faction presence of connected nodes. Once this network has been established, routing will be completed using Dijkstra's shortest path algorithm. Because the distance between nodes was weighed by our regional variables, this model will represent the path of least-risk.
 
 <img src="images/MX_NodesLinks_Alpha.jpg" width="500" >
 
@@ -134,7 +134,7 @@ Participants will be recruited through Facebook and social media. Respondents wh
 
 ### 5.3 Define Routes
 
-A set of routes were taken from previous studies, mainly the Medel (2015) study which showed the routes that were predicted along a path from a cartel controlled area to the US-Mexico border as shown below.  The Medel (2015) study included many factors to come up with the least risk route that the trafficers may take while traveling.  Using the study as a reference, our project focused on finding the most likely path from the Mexican city of Zihuatanejo in the Pacific coast to Nuevo Laredo, which shares the border with Laredo, TX.
+A set of routes were taken from previous studies, mainly the Medel (2015) study which showed the routes that were predicted along a path from a cartel controlled area to the US-Mexico border as shown below.  The Medel (2015) study included many factors to come up with the least risk route that the traffickers may take while traveling.  Using the study as a reference, our project focused on finding the most likely path from the Mexican city of Zihuatanejo in the Pacific coast to Nuevo Laredo, which shares the border with Laredo, TX.
 
 <img src="images/MedelRoutes.png" width="400">
 
@@ -144,9 +144,9 @@ A map was studied showing the major road networks between Zihuatanejo to Nuevo L
 
 ### 5.4 Route and City Information
 
-With the cities defined, informatin was gathered about each city to start to form the attributes that will be applied to the routes when generating the various weights.  It was choosen to use the destination city's information to apply to the route's attributes when calculating the weights.  
+With the cities defined, information was gathered about each city to start to form the attributes that will be applied to the routes when generating the various weights.  It was decided to use the destination city's information to apply to the route's attributes when calculating the weights.  
 
-City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas **PUT REFERENCE IN HERE**.  This map was overlayed onto the route maps to allow us to determine which cartels control the different areas for each city.
+City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas **PUT REFERENCE IN HERE**.  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="400">
 
@@ -264,7 +264,7 @@ The routes were defined next using the maps that were generated.  Each route was
 
 ### 5.5 Graph Tea Writeup
 
-**Write up a little about Graph Tea.  Then show a pic of the routes and cities in Graph Tea.  This should be in section 6 since that is where we calculate the data to enter into Grpah Tea**
+**Write up a little about Graph Tea.  Then show a pic of the routes and cities in Graph Tea.  This should be in section 6 since that is where we calculate the data to enter into Graph Tea**
 
 ## 6. Results
 
@@ -272,12 +272,12 @@ The routes were defined next using the maps that were generated.  Each route was
 
 [LHC: update table 6.1 to reflect normalized data, descending order] **That is shown in the results a few section below**
 
-The results for the questionnaire was gathered from a pilot study using the class as subjects.  The different route attributes had their respetive Score and Ranking attributes averaged.  The Low/High value for each attribute was taken by using the value that had the majority of the responses.  The averaged information is shown below.  A higher Score attribute value showed that the attribute was more important.  A lower Ranking for the attribute showed that the attribute was more important when compared to the other attributes.
+The results for the questionnaire was gathered from a pilot study using the class as subjects.  The different route attributes had their respective Score and Ranking attributes averaged.  The Low/High value for each attribute was taken by using the value that had the majority of the responses.  The averaged information is shown below.  A higher Score attribute value showed that the attribute was more important.  A lower Ranking for the attribute showed that the attribute was more important when compared to the other attributes.
 
 | Attribute | Score | Low/High | Ranking |
 | --- | --- | --- | --- |
 | Presence of Competing Gangs | 4.71 | Low | 1.86 |
-| Distance to Next Desination | 3.86 | Low | 2.43 |
+| Distance to Next Destination | 3.86 | Low | 2.43 |
 | Crime Rate | 3.14 | High | 3.14 |
 | Population Density | 2.86 | Low | 3.71 |
 | Complexity of the Route | 2.86 | Low | 3.86 |
@@ -290,7 +290,7 @@ Write up about the responses.
 
 [LHC: add in paragraph re: normalizing data; update tables/data; include rerun graphtea output] **This is talked about below**
 
-To apply the weights of the different attributes, scales were applied to each attribute.  The scale was based on the Score and Ranking attribute that was dirived from the Route Decision Questionnaire.  These scales will be used against each routes attributes to detemine the final weighting of the route.  The scales were calculated using the following formula to allow for the more risky attribute to have a higher value.  The Score were based on a scale of 1 - 5, where 5 was set to be the most risky. The Ranking were based on a scale of 1 - 5, where 1 was set to be the most risky.  For the Composite calculation, the Ranking was reveresed to allow the Score and Ranking to use a scale of 1 - 5 with 5 being the most risky.  This formula for calculating the Composite score is shown below there the Ranking was reversed, then the Score and the Ranking was averaged.
+To apply the weights of the different attributes, scales were applied to each attribute.  The scale was based on the Score and Ranking attribute that was derived from the Route Decision Questionnaire.  These scales will be used against each routes attributes to determine the final weighting of the route.  The scales were calculated using the following formula to allow for the more risky attribute to have a higher value.  The Score were based on a scale of 1 - 5, where 5 was set to be the most risky. The Ranking were based on a scale of 1 - 5, where 1 was set to be the most risky.  For the Composite calculation, the Ranking was reversed to allow the Score and Ranking to use a scale of 1 - 5 with 5 being the most risky.  This formula for calculating the Composite score is shown below there the Ranking was reversed, then the Score and the Ranking was averaged.
 
 Composite = Average(Score, 5.00 - Ranking)  
 
@@ -301,12 +301,12 @@ With the above formula, the Composite value was calculated for each attribute.
 | Attribute | Composite |
 | --- | --- |
 | Presence of Competing Gangs | 3.93 |
-| Distance to Next Desination | 3.21 |
+| Distance to Next Destination | 3.21 |
 | Crime Rate | 2.50 |
 | Population Density | 2.07 |
 | Complexity of the Route | 2.00 |
 
-Each destination city was assigned a cartel that controlled the particular area.  For this project, it was assumed that the begining city of Zihuatanejo was the control cartel, with a weighting of 0 (least risky).  If a city was in a rival cartel area, then the cartel weighting was set to 1 (most risky).  If the city had shared or multiple controls from cartels, it was given a partial weighting of 0.33 since there were three cartels in the study.
+Each destination city was assigned a cartel that controlled the particular area.  For this project, it was assumed that the beginning city of Zihuatanejo was the control cartel, with a weighting of 0 (least risky).  If a city was in a rival cartel area, then the cartel weighting was set to 1 (most risky).  If the city had shared or multiple controls from cartels, it was given a partial weighting of 0.33 since there were three cartels in the study.
 
 | Cartel | Weighting |
 | --- | --- |
@@ -319,15 +319,15 @@ Each of the routes attributes were normalized to range from 0 to 1.  The normali
 
 Normalized Attribute = (Attribute Value - Min Attribute Value) / (Max Attribute Value - Min Attribute Value)
 
-The assending or dessending order was based on the Low/High response from the Route Decision Questionnaire results.
+The ascending or descending order was based on the Low/High response from the Route Decision Questionnaire results.
 
 Each attribute for the route was then scaled by the attribute Composite value and summed together.  The formula is shown below that was used to calculate the route weight.
 
-Route Weight = (Distance * Distance to Next Desination Composite) + (Circuity * Complexity of the Route Composite) + (Crime * Crime Rate Composite) + (Popluation * Population Density Composite) + (Cartel * Presence of Competing Gangs Composite)
+Route Weight = (Distance * Distance to Next Destination Composite) + (Circuity * Complexity of the Route Composite) + (Crime * Crime Rate Composite) + (Population * Population Density Composite) + (Cartel * Presence of Competing Gangs Composite)
 
 The results for each route is shown below.
 
-| Route | Distance | Circuity | Crime | Popluation | Cartel | Route Weight |
+| Route | Distance | Circuity | Crime | Population | Cartel | Route Weight |
 | --- | --- | --- | --- | --- | --- | --- |
 | Zihuatanejo to Huetamo | 0.42 | 0.21 | 0.38 | 0.97 | 0.00 | 4.74 |
 | Zihuatanejo to Nueva Italia de Ruiz | 0.58 | 0.83 | 0.06 | 0.97 | 0.00 | 5.72 |
@@ -400,13 +400,13 @@ The results for each route is shown below.
 
 ### 6.4 Graph Tea (Change the name) Results
 
-Graph Tea was used to calculate the route with the least risk calcualted on based on the routes attributes and survey results.  The cities were loaded into Graph Tea in their respective geographical locations.  The city's latitude and longitude was used to place the city node for Graph Tea in the program screen space coordinates.  This allow for an accurate geospacial resprestaiton of the city's location within Graph Tea.
+Graph Tea was used to calculate the route with the least risk calculated on based on the routes attributes and survey results.  The cities were loaded into Graph Tea in their respective geographical locations.  The city's latitude and longitude was used to place the city node for Graph Tea in the program screen space coordinates.  This allowed for an accurate geospacial representation of the city's location within Graph Tea.
 
 The routes were defined using the city to city routes with the weights defined from the results each routes attributes and the weighting determined by the Route Decision Questionnaire results.  The route weight that was calculated for each route represents the amount of risk associated with that route.  The input into Graph Tea is show below.
 
 <img src="images/GraphTeaInput.png" width="400">
 
-Graph Tea was ran with the input of the cities, routes, and weights to find the least risk path between the source city and the desitnation city.  For this, the Dijkstra algorithm was ran.  Within the program, the route with the smallest weights was calculated, whih represents the route with the least amount of risk.  The results are shown below in the image and a link to a video showing the Dijkstra algorithm being ran.
+Graph Tea was ran with the input of the cities, routes, and weights to find the least risk path between the source city and the destination city.  For this, the Dijkstra algorithm was ran.  Within the program, the route with the smallest weights was calculated, which represents the route with the least amount of risk.  The results are shown below in the image and a link to a video showing the Dijkstra algorithm being ran.
 
 <img src="images/GraphTeaOutputPS.png" width="400">
 
