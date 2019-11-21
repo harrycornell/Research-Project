@@ -405,7 +405,7 @@ Graph Tea was ran with the input of the cities, routes, and weights to find the 
 
 The video will go to a link that can download the mp4 file for playback.
 
-[![Graph Tea](images/MexicoRoutes85.png)](https://github.com/harrycornell/Research-Project/blob/master/images/MexicoRoutes85.mp4)
+[![Graph Tea](images/MexicoRoutes85.png)](https://github.com/harrycornell/Research-Project/blob/master/images/MexicoRoutes.mp4)
 
 ## 7. Conclusion
 
