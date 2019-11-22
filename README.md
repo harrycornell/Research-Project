@@ -413,6 +413,28 @@ The video will go to a link that can download the mp4 file for playback.
 
 [AN & JRR: fill out section, include images, benefits of using this method v. medel method  - Do we  need something in here about how we would validate in a perfect world?]
 
+### 7.2 Comparing the results of the routes (FIND A BETTER NAME)
+
+The route using only the cartel attribute.
+
+<img src="images/MexicoRoutesCartel.png" width="400">
+
+The route using only the route complexity attribute.
+
+<img src="images/MexicoRoutesCircuity.png" width="400">
+
+The route using only the crime rate attribute.
+
+<img src="images/MexicoRoutesCrime.png" width="400">
+
+The route using only the distance attribute.
+
+<img src="images/MexicoRoutesDistance.png" width="400">
+
+The route using only the population attribute.
+
+<img src="images/MexicoRoutesPopulation.png" width="400">
+
 ## 8. Future Work
 
 [AN & JRR: fill out section]
