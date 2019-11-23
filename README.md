@@ -437,6 +437,14 @@ The route using only the population attribute.
 
 <img src="images/MexicoRoutesPopulation.png" width="400">
 
+Google Maps showing the route from Zihuatanejo to Nuevo Laredo
+
+<img src="images/GoogleMaps.png" width="400">
+
+Google Maps route showing in the route map
+
+<img src="images/MexicoGoogleMapsRoutes.png" width="400">
+
 ## 8. Future Work
 
 [AN & JRR: fill out section]
