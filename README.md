@@ -88,6 +88,8 @@ As previously mentioned, the current project aims to address the lack of informa
 
 * Next, we will attempt to gauge the extent that each of these variables influence travel-patterns in the real world.  For this topic, two qualitative surveys will be administered to human subjects. The data gathered will be used to inform our model inputs as well as inform any future attempts to apply this methodology to problem areas in the MENA region. 
 
+<img src="images/Work Flow.png" width="400" >
+
 ### 4.1 Participants
 
 We anticipate drawing from two separate participant populations: one sample from the general college population and the other from participants living in the MENA region. For the college student sample, 30 undergraduate students (age 18+) will be recruited using the University of Central Florida's SONA research system. These students will be asked to complete a short questionnaire on routing decisions.
@@ -108,21 +110,17 @@ The second questionnaire, titled the Regional Influence Questionnaire, will be d
 
 Drawing from the methods developed by Medel (2015), our graph model will be developed using a high-level overview of Central America. In the graph, nodes will represent major way-points located throughout the region. These way-points will consist of several dozen major cities, towns, and highway entrances. Using a qualitative approach, historical data will be gathered on the crime rate and criminal faction presence of that node's surrounding area. This data will be systematically applied to that nodes edges. 
 
-### Inset flow chart here
-
-<img src="images/Work Flow.png" width="400" >
-
 Links between nodes will represent the pathway between major way-points. As a base, these links will be given a value that corresponds to the distance between nodes. Then, this distance will be weighted by population, route complexity, crime rate and faction presence of connected nodes. Once this network has been established, routing will be completed using Dijkstra's shortest path algorithm. Because the distance between nodes was weighed by our regional variables, this model will represent the path of least-risk.
 
 <img src="images/MX_NodesLinks_Alpha.jpg" width="400" >
 
 ### 5.2 Surveys
 
-Intro
+INTRO 
 
 #### 5.2.1 IRB Plan
 
-Insert form here (maybe) or explain how/why we choose the type to do
+RHP-255 forms for both questionnaires will be submitted for review by UCF’s IRB Review Board. As neither questionnaire collects or retains personal data, we believe the board will provide an exemption for both surveys. While the Route Decision Questionnaire is conducted anonymously, there is an in-person element, and as such, we will keep a completed RHP-254 Explanation of Research form on file, should the review board have need of it. 
 
 #### 5.2.2 Route Decision Questionnaire
 
