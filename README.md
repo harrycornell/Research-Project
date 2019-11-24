@@ -116,11 +116,11 @@ Links between nodes will represent the pathway between major way-points. As a ba
 
 ### 5.2 Surveys
 
-Intro
+INTRO 
 
 #### 5.2.1 IRB Plan
 
-IRB RHP-255 forms will be submitted for review by UCF's IRB review board. We 
+RHP-255 forms for both questionnaires will be submitted for review by UCF’s IRB Review Board. As neither questionnaire collects or retains personal data, we believe the board will provide an exemption for both surveys. While the Route Decision Questionnaire is conducted anonymously, there is an in-person element, and as such, we will keep a completed RHP-254 Explanation of Research form on file, should the review board have need of it. 
 
 #### 5.2.2 Route Decision Questionnaire
 
