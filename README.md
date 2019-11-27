@@ -93,7 +93,7 @@ As previously mentioned, the current project aims to address the lack of informa
 
 * Next, we will attempt to gauge the extent that each of these variables influence travel-patterns in the real world.  For this topic, two qualitative surveys will be administered to human subjects. The data gathered will be used to inform our model inputs as well as inform any future attempts to apply this methodology to problem areas in the MENA region. 
 
-<img src="images/Work Flow.png" width="800" > Project Work Flow
+<img src="images/Work Flow.png" width="900" > Project Work Flow
 
 ### 4.1 Participants
 
@@ -154,7 +154,7 @@ With the cities defined, information was gathered about each city to start to fo
 
 City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Visualizing Mexico's drug catrtels, 2001).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
-<img src="images/RoutesWithCartel.png" width="700"> Modified map of Mexican cartel control with selected cities and roads overlaid (map modified with ArcGIS) (basemap: Visualizing Mexico's drug catrtels, 2001).
+<img src="images/RoutesWithCartel.png" width="900"> Modified map of Mexican cartel control with selected cities and roads overlaid (map modified with ArcGIS) (basemap: Visualizing Mexico's drug catrtels, 2001).
 
 The city information was collected with the following information reported: .  
 
