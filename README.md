@@ -145,10 +145,12 @@ A set of routes were taken from previous studies, mainly the Medel (2015) study 
 <img src="images/MedelRoutes.png" width="400"> 
 Possible drug smuggling routes, created using shortest path models (Medel, 2015). 
 
+
 A map was studied showing the major road networks between Zihuatanejo to Nuevo Laredo.  Major population cities along the path were picked out to form the road network and cities that the smugglers would have to travel though.  The cities were plotted into Google Earth along with the linear routes between the cities that matched the road networks that connect the cities.  The result is shown below.
 
 <img src="images/RoutesKMZ.png" width="300"> 
 Mexican cities and roads selected for graph theory model. 
+
 
 ### 5.4 Route and City Information
 
@@ -159,6 +161,7 @@ City information of crime rate and population was found using crime data that re
 <img src="images/RoutesWithCartel.png" width="800"> 
 <img src="images/CartelMXLegend.png" width="500" > 
 Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
+
 
 The city information was collected with the following information reported:  
 
