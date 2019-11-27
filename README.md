@@ -18,14 +18,16 @@ ISIS destruction of the cultural heritage sites of  Palmyra, 2016 (left, Arbesh.
 During the insurgency of Syria and Iraq by the Islamic State of Iraq and Syria (ISIS) in 2014, the terrorist organization often televised the systematic destruction of what they termed “idolatrous” heritage. Using this as justification for the destruction of cultural heritage sites in the region, ISIS quietly looted these sites prior to their televised destruction, with the funds gained on the black market used to further support their effort (Terrill 2017). During this same time period, ISIS routinely issued permits to groups in the areas under their control, allowing for the looting of archaeological and cultural heritage sites, with the permit holders sharing a portion of the black-market profits with ISIS in exchange for the right to keep some of the profits for themselves. The looting of these sites and the subsequent improvements to domestic and household structures in the areas bordering the sites has been observed through analysis of satellite imagery of these locations (Casana, 2015; Parcak, 2013). In the intervening years, while the presence of ISIS in the region has been marginalized, the looting of archaeological sites continues in the destabilized region (Casana, 2015; Parcak et al., 2016; Terrill, 2017). Oftentimes, the looting of these resources is not known until months after the fact, often seen by satellite imagery or when locals discuss their activities with archaeologists returning to some of the affected areas to continue their research (Casana, 2015; Proulx, 2013). 
 
 <img src="images/TellMardikh_Syria_2014.jpg" width="430" >  <img src="images/TellesSinn_Syria_2014.png" width="330" >
-           Satellite imagery of looting pits at Syrian archaeological sites Tell Mardikh (left) and Tell es-Sinn (right). (Cassana, 2015.)
+
+Satellite imagery of looting pits at Syrian archaeological sites Tell Mardikh (left) and Tell es-Sinn (right). (Cassana, 2015.)
 
 The duel impact of the loss of cultural heritage and the monies gained from their sale are motivation to find methods to intercept stolen antiquities before they reach the black market. Understanding the methods of transportation that these groups utilize is essential to understanding how they are moving goods from the initial archaeological sites, through the countries, across the borders, and into safe houses where they could be held for decades before they are sold. 
 
 Computer simulations present an intriguing avenue for this research. By first understanding the transportation options available to smugglers, simulations can be informed which can provide reliable insight on the routes that smugglers would select when transporting illicit antiquities away from looted archaeological sites. Research into transnational smuggling indicates that when transporting illicit goods, smugglers will often transport goods overland following two methods, by hiding in plain sight and/or by moving with stealth (Basu, 2013; Basu, 2014). Following the idea that smugglers will make rational informed decisions when selecting these overland routes (Basu, 2014; Medel, 2015), this project has several aims: first, to use computer simulations to identify viable routes traffickers would use based on previous literature and the application of graph theory; second, to use this data to construct two qualitative surveys designed to provide insight into the decisions participants will make when provided information on road conditions, route circuity, faction-control, crime rates, and available alternative routes, as well as how they rank the importance of these factors; and finally, to use this data to inform a link-weighting system designed to produce the least-cost paths smugglers would likely select when faced with the same decisions. 
 
 <img src="images/Medel2015_MXRoutes.jpg" width="350" >  <img src="images/graphtheoryexample.png" width="400" >
-           Examples of shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, CITE).           
+
+Examples of shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, CITE).           
 
 In an attempt to aid cultural heritage workers, international NGO's, and local stakeholders, this project addresses the problem of illicit antiquities trafficking by using computer simulations to illuminate the relationship between existing transportation infrastructures and the paths criminals use to transport stolen antiquities from archaeological sites. We believe this project will provide proof of concept that computer simulations can reliably identify routes that smugglers would select when moving illicit goods.  
 
@@ -91,8 +93,7 @@ As previously mentioned, the current project aims to address the lack of informa
 
 * Next, we will attempt to gauge the extent that each of these variables influence travel-patterns in the real world.  For this topic, two qualitative surveys will be administered to human subjects. The data gathered will be used to inform our model inputs as well as inform any future attempts to apply this methodology to problem areas in the MENA region. 
 
-<img src="images/Work Flow.png" width="600" >
-Project Work Flow
+<img src="images/Work Flow.png" width="800" > Project Work Flow
 
 ### 4.1 Participants
 
@@ -117,8 +118,7 @@ Drawing from the methods developed by Medel (2015), our graph model will be deve
 
 Links between nodes will represent the pathway between major way-points. As a base, these links will be given a value that corresponds to the distance between nodes. Then, this distance will be weighted by population, route complexity, crime rate and faction presence of connected nodes. Once this network has been established, routing will be completed using Dijkstra's shortest path algorithm. Because the distance between nodes was weighed by our regional variables, this model will represent the path of least-risk.
 
-<img src="images/MX_NodesLinks_Alpha.jpg" width="400" >
-(Map created with ArcGIS)
+<img src="images/MX_NodesLinks_Alpha.jpg" width="400" > (Map created with ArcGIS)
 
 ### 5.2 Surveys
 
@@ -142,13 +142,11 @@ Participants will be recruited through Facebook and social media. Respondents wh
 
 A set of routes were taken from previous studies, mainly the Medel (2015) study which showed the routes that were predicted along a path from a cartel controlled area to the US-Mexico border as shown below.  The Medel (2015) study included many factors to come up with the least risk route that the traffickers may take while traveling.  Using the study as a reference, our project focused on finding the most likely path from the Mexican city of Zihuatanejo in the Pacific coast to Nuevo Laredo, which shares the border with Laredo, TX.
 
-<img src="images/MedelRoutes.png" width="400">
-Possible drug smuggling routes, created using shortest path models (Medel, 2015). 
+<img src="images/MedelRoutes.png" width="400"> Possible drug smuggling routes, created using shortest path models (Medel, 2015). 
 
 A map was studied showing the major road networks between Zihuatanejo to Nuevo Laredo.  Major population cities along the path were picked out to form the road network and cities that the smugglers would have to travel though.  The cities were plotted into Google Earth along with the linear routes between the cities that matched the road networks that connect the cities.  The result is shown below.
 
-<img src="images/RoutesKMZ.png" width="300">
-Mexican cities and roads selected for graph theory model. 
+<img src="images/RoutesKMZ.png" width="300"> Mexican cities and roads selected for graph theory model. 
 
 ### 5.4 Route and City Information
 
@@ -156,8 +154,7 @@ With the cities defined, information was gathered about each city to start to fo
 
 City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Visualizing Mexico's drug catrtels, 2001).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
-<img src="images/RoutesWithCartel.png" width="400">
-Modified map of Mexican cartel control with selected cities and roads overlaid (map modified with ArcGIS) (basemap: Visualizing Mexico's drug catrtels, 2001).
+<img src="images/RoutesWithCartel.png" width="700"> Modified map of Mexican cartel control with selected cities and roads overlaid (map modified with ArcGIS) (basemap: Visualizing Mexico's drug catrtels, 2001).
 
 The city information was collected with the following information reported: .  
 
