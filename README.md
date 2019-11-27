@@ -6,7 +6,7 @@
 
 ## 1. Topic/Purpose Statement
 
-This study addresses the viability of using computer simulations to identify the relationship between transportation networks and the smuggling of illicit antiquities. The purpose of this research is to provide a tool for law enforcement agencies and cultural heritage workers to recover looted archaeological artifacts before they reach the black market for sale. The first phase of this qualitative study will involve the running of weighted transportation simulations, guided by graph theory, to determine probable routes between selected archaeological sites that are known to have been looted during the 2014 ISIS insurgency in Syria and Iraq and known locations where caches of illicit artifacts have been recovered. The data from these simulations will be used to create a forced-decision survey designed to explore the routes that participants will select when informed of socio-political elements and available transportation networks.
+This study addresses the viability of using computer simulations to identify the relationship between transportation networks and the smuggling of illicit antiquities. The intent of this line of work is to provide a tool for law enforcement agencies and cultural heritage workers to recover looted archaeological artifacts by identifying the most probable overland smuggling routes. 
 
 ## 2. General Introduction
 
