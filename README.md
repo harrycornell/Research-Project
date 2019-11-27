@@ -152,9 +152,9 @@ A map was studied showing the major road networks between Zihuatanejo to Nuevo L
 
 With the cities defined, information was gathered about each city to start to form the attributes that will be applied to the routes when generating the various weights.  It was decided to use the destination city's information to apply to the route's attributes when calculating the weights.  
 
-City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Visualizing Mexico's drug catrtels, 2001).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
+City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Reed, 2015).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
-<img src="images/RoutesWithCartel.png" width="900"> Modified map of Mexican cartel control with selected cities and roads overlaid (map modified with ArcGIS) (basemap: Visualizing Mexico's drug catrtels, 2001).
+<img src="images/RoutesWithCartel.png" width="800"> Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
 
 The city information was collected with the following information reported: .  
 
@@ -481,8 +481,8 @@ Parcak, Sarah, David Gathings, Chase Childs, Greg Mumford, and Eric Cline. (2016
 
 Proulx, B. B. (2013). Archaeological Site Looting in “Glocal” Perspective: Nature, Scope, and Frequency. American Journal of  Archaeology, 117(1), 111. https://doi.org/10.3764/aja.117.1.0111
 
+Reed, Tristan. (2015, January 15). Mexico's Drug War: A New Way to Think About Mexican Organized Crime. Retrieved from: https://www.forbes.com/sites/stratfor/2015/01/15/mexicos-drug-war-a-new-way-to-think-about-mexican-organized-crime/#12284266a0ad  
+
 Rodríguez-Puente, R., & Lazo-Cortés, M. S. (2013). Algorithm for shortest path search in Geographic Information Systems by using reduced graphs. SpringerPlus, 2(1). https://doi.org/10.1186/2193-1801-2-291
 
 Terrill, W. Andrew. (2017). Antiquities Destruction and Illicit Sales as Sources of ISIS Funding and Propaganda. Carlisle, PA: U.S. Army War College. 
-
-Visualizing Mexico’s drug cartels: A roundup of maps. (2001, November 30). Retrieved November 20, 2019, from http://www.storybench.org/visualizing-mexicos-drug-cartels-roundup-maps/
