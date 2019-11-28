@@ -159,8 +159,7 @@ With the cities defined, information was gathered about each city to start to fo
 City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Reed, 2015).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="800"> 
-<img src="images/CartelMXLegend.png" width="500" > 
-Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
+<img src="images/CartelMXLegend.png" width="500" > Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
 
 
 In total, the following information was collected for the 34 cities selected: 
