@@ -159,11 +159,10 @@ With the cities defined, information was gathered about each city to start to fo
 City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Reed, 2015).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="800"> 
-<img src="images/CartelMXLegend.png" width="500" > 
-Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
+<img src="images/CartelMXLegend.png" width="500" > Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
 
 
-The city information was collected with the following information reported:  
+In total, the following information was collected for the 34 cities selected: 
 
 | City | Crime Rate | Population | Cartel | 
 | --- | --- | --- | --- | 
@@ -202,7 +201,7 @@ The city information was collected with the following information reported:
 | Zamora | 62.9 | 200205 | Tierra Caliente | 
 | Zihuatanejo | 103.8 | 132894 | Tierra Caliente | 
 
-The routes were defined next using the maps that were generated.  Each route was given a name of a 'from' and 'to' city.  The routes linear distance was measured using Google Earth.  The routes road distance was calculated using Google Maps.  These two attributes were used to calculate the circuity of the route by dividing the route distance by the linear distance.  The destination city's crime rate and population was also tabulated for the routes.
+The routes were defined next using the maps that were generated.  Each of the 67 defined routes was given the name of a 'from' and 'to' city.  The routes linear distance was measured using Google Earth.  The routes road distance was calculated using Google Maps.  These two attributes were used to calculate the circuity of the route by dividing the route distance by the linear distance.  The destination city's crime rate and population was also tabulated for the routes.
 
 | Route | Linear Distance (mi) | Path Distance (mi) | Circuity | Destination City Crime Rate | Destination Population |
 | --- | --- | --- | --- | --- | --- |
@@ -410,15 +409,44 @@ Graph Tea was used to calculate the route with the least risk calculated on base
 
 The routes were defined using the city to city routes with the weights defined from the results each routes attributes and the weighting determined by the Route Decision Questionnaire results.  The route weight that was calculated for each route represents the amount of risk associated with that route.  The input into Graph Tea is show below.
 
-<img src="images/GraphTeaInput.png" width="400">
+<img src="images/GraphTeaInput.png" width="400"> 
 
 Graph Tea was ran with the input of the cities, routes, and weights to find the least risk path between the source city and the destination city.  For this, the Dijkstra algorithm was ran.  Within the program, the route with the smallest weights was calculated, which represents the route with the least amount of risk.  The results are shown below in the image and a link to a video showing the Dijkstra algorithm being ran.
 
 <img src="images/MexicoRoutes.png" width="400">
+Graph Tea results with five attributes. 
 
 The video will go to a link that can download the mp4 file for playback.
 
 [![Graph Tea](images/MexicoRoutes85.png)](https://github.com/harrycornell/Research-Project/blob/master/images/MexicoRoutes.mp4)
+
+The routes generated using the Graph Tea program contained nine total stops and traveled a distance of 1236 miles: 
+
+| Route | Linear Distance (mi) | Path Distance (mi) | Circuity | Destination City Crime Rate | Destination Population |
+| --- | --- | --- | --- | --- | --- |
+| Zihuatanejo to Huetamo | 75.9 | 162.0 | 2.1 | 28.6 | 49031 |
+| Huetamo to Morelia | 74.2 | 128.0 | 1.7 | 41.2 | 786782 |
+| Morelia to San Juan del Río | 85.6 | 151.0 | 1.8 | 13.5 | 280960 |
+| San Juan del Río to Ciudad Valles | 121.0 | 231.0 | 1.9 | 19.5 | 184262 |
+| Ciudad Valles to Matehuala | 152.0 | 166.0 | 1.1 | 21.4 | 102579 |
+| Matehuala to Saltillo | 121.0 | 158.0 | 1.3 | 3.2 | 825244 |
+| Saltillo to Monterrey | 43.7 | 54.2 | 1.2 | 17.1 | 1226064 |
+| Monterrey to Nueva Ciudad Guerrero | 86.0 | 108.0 | 1.3 | 0.0 | 5371 |
+| Nueva Ciudad Guerrero to Nuevo Laredo | 66.1 | 78.1 | 1.2 | 15.2 | 432926 |
+
+The route weights were as follows: 
+
+| Route | Distance | Circuity | Crime | Population | Cartel | Route Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| Zihuatanejo to Huetamo | 0.42 | 0.21 | 0.38 | 0.97 | 0.00 | 4.74 |
+| Huetamo to Morelia | 0.57 | 0.51 | 0.55 | 0.50 | 0.00 | 5.28 |
+| Morelia to San Juan del Río | 0.47 | 0.48 | 0.18 | 0.82 | 0.00 | 4.62 |
+| San Juan del Río to Ciudad Valles | 0.11 | 0.38 | 0.26 | 0.88 | 1.00 | 7.51 |
+| Ciudad Valles to Matehuala | 0.40 | 0.97 | 0.29 | 0.94 | 1.00 | 9.81 |
+| Matehuala to Saltillo | 0.44 | 0.82 | 0.04 | 0.48 | 1.00 | 8.06 |
+| Saltillo to Monterrey | 0.90 | 0.86 | 0.23 | 0.22 | 0.67 | 8.29 |
+| Monterrey to Nueva Ciudad Guerrero | 0.66 | 0.85 | 0.00 | 1.00 | 1.00 | 9.82 |
+| Nueva Ciudad Guerrero to Nuevo Laredo | 0.80 | 0.91 | 0.20 | 0.73 | 1.00 | 10.31 |
 
 ## 7. Conclusion
 
@@ -456,6 +484,8 @@ Google Maps route showing in the route map
 
 <img src="images/MexicoGoogleMapsRoutes.png" width="400">
 
+When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and crime rates varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. This fact speaks to the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, is producing viable alternative options that could prove useful to law enforcement. 
+
 ## 8. Future Work
 
 [AN & JRR: fill out section]
@@ -467,6 +497,9 @@ Google Maps route showing in the route map
 This project originated from research into the looting of archaeological sites wthin the Middle East and North Africa region and so plans for future work include applying these methods to transportation systems within this area. It would be during this phase of the project that the Regional Questionnaire would be distrubuted via (the channels mentioned abbove). Further, to increase applicablility to the MENA region, aome attributes would need to be weighted as more appropriate measures, including replacing cartel-control with faction-control. 
 
 [Insert regional influence survey here]
+
+What would we do if we had 6-8 more months? 
+How would we validate? 
 
 ## References
 
