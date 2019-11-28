@@ -162,8 +162,8 @@ City information of crime rate and population was found using crime data that re
 <img src="images/CartelMXLegend.png" width="500" > Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
 
 
-
 In total, the following information was collected for the 34 cities selected: 
+
 | City | Crime Rate | Population | Cartel | 
 | --- | --- | --- | --- | 
 | Aguascalientes | 6.8 | 905908 | Tierra Caliente | 
