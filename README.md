@@ -522,7 +522,7 @@ No Circuity
 
 This project originated from research into the looting of archaeological sites wthin the Middle East and North Africa region and so plans for future work include applying these methods to transportation systems within this area. It would be during this phase of the project that the Regional Questionnaire would be distrubuted via (the channels mentioned abbove). Further, to increase applicablility to the MENA region, aome attributes would need to be weighted as more appropriate measures, including replacing cartel-control with faction-control. 
 
-<img src="images/Reg_Infl_Survey_pg1.JPG" width="360" > <img src="images/Reg_Infl_Survey_pg2.JPG" width="360" > 
+<img src="images/Reg_Infl_Survey_pg1.JPG" width="400" > <img src="images/Reg_Infl_Survey_pg2.JPG" width="400" >
 
 What would we do if we had 6-8 more months? 
 How would we validate? 
