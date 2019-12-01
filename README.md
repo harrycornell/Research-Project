@@ -490,6 +490,28 @@ Google Maps route showing in the route map
 
 When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and crime rates varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. This fact speaks to the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, is producing viable alternative options that could prove useful to law enforcement. 
 
+## Using 4 attributes##
+
+<img src="images/MexicoRoutes_Cir_Cr_Pop_Cart_PS.png" width="400">
+
+No Distance
+
+<img src="images/MexicoRoutes_Dis_Cir_Cr_Cart_PS.png" width="400">
+
+No Population
+
+<img src="images/MexicoRoutes_Dis_Cir_Cr_Pop_PS.png" width="400">
+
+No Cartel
+
+<img src="images/MexicoRoutes_Dis_Cir_Pop_Cart_PS.png" width="400">
+
+No Crime Rate
+
+<img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.pngg" width="400">
+
+No Circuity
+
 ## 8. Future Work
 
 [AN & JRR: fill out section]
