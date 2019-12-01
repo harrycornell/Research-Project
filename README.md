@@ -444,9 +444,9 @@ The route weights were as follows:
 | Monterrey to Nueva Ciudad Guerrero | 0.66 | 0.85 | 0.00 | 1.00 | 1.00 | 9.82 |
 | Nueva Ciudad Guerrero to Nuevo Laredo | 0.80 | 0.91 | 0.20 | 0.73 | 1.00 | 10.31 |
 
-### 7.2 Sensitivity Analyses
+### 6.5 Sensitivity Analyses
 
-For completeness, a sensitivity analysis was conducted. When one of the attributes awas reemoved, ans the route was generated using only four attributes, the simulation produced the same route for each attribute combination as it had when it was run with all five attributes, with the exception of the model that produced without the Population attribute. 
+For completeness, a sensitivity analysis was conducted. When one of the attributes was removed and the route was generated using only four attributes, the simulation produced the same route for each attribute combination as it had when it was run with all five attributes, with the exception of the model that was generated without the Population attribute. 
 
 | Attributes | Results |
 | --- | --- |
@@ -456,7 +456,7 @@ For completeness, a sensitivity analysis was conducted. When one of the attribut
 | Distance, Crime, Population, Cartel | <img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.png" width="400"> |
 | Distance, Circuity, Crime, Cartel |  <img src="images/MexicoRoutes_Dis_Cir_Cr_Cart_PS.png" width="400"> |
 
-Addtionally, a an analysis was run using only one attribute, instead of all five, the results can be seen below. 
+Addtionally, a second analysis was conducted using only one attribute, instead of all five, the results can be seen below: 
 
 | Attribute | Results |
 | --- | --- |
@@ -466,8 +466,7 @@ Addtionally, a an analysis was run using only one attribute, instead of all five
 | Distance | <img src="images/MexicoRoutesDistance.png" width="400"> |
 | Population |  <img src="images/MexicoRoutesPopulation.png" width="400"> |
 
-When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and crime rates varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. Both of these analysies speak to   the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, is producing viable alternative options that could prove useful to law enforcement. 
-
+When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and crime rates varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. Both of these analysies speak to   the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, it is producing viable alternative options that could prove useful to law enforcement. 
 
 <img src="images/GoogleMaps.png" width="400">
 Google Maps showing the route from Zihuatanejo to Nuevo Laredo
