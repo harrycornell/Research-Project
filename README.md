@@ -492,7 +492,11 @@ When running the simulation using only one attribute, instead of considering all
 
 ## Using 4 attributes##
 
-<img src="images/MexicoRoutes_Cir_Cr_Pop_Cart_PS.png" width="400">
+| Attributes | Results |
+| --- | --- |
+| Circuity, Crime, Population, Cartel | <img src="images/MexicoRoutes_Cir_Cr_Pop_Cart_PS.png" width="400"> |
+
+
 
 No Distance
 
