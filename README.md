@@ -496,7 +496,7 @@ When running the simulation using only one attribute, instead of considering all
 | --- | --- |
 | Circuity, Crime, Population, Cartel | <img src="images/MexicoRoutes_Cir_Cr_Pop_Cart_PS.png" width="400"> |
 | Distance, Circuity, Crime, Population | <img src="images/MexicoRoutes_Dis_Cir_Cr_Pop_PS.png" width="400"> |
-| Distance, Circuity, Population, Cartel | <img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.png" width="400"> |
+| Distance, Circuity, Population, Cartel | <img src="images/MexicoRoutes_Dis_Cir_Pop_Cart_PS.png" width="400"> |
 | Distance, Crime, Population, Cartel | <img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.png" width="400"> |
 | Distance, Circuity, Crime, Cartel |  <img src="images/MexicoRoutes_Dis_Cir_Cr_Cart_PS.png" width="400"> |
 
