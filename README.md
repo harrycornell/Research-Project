@@ -27,7 +27,7 @@ Computer simulations present an intriguing avenue for this research. By first un
 
 <img src="images/Medel2015_MXRoutes.jpg" width="350" >  <img src="images/graphtheoryexample.png" width="400" >
 
-Examples of shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, CITE).           
+Examples of using least risk with shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, CITE).           
 
 In an attempt to aid cultural heritage workers, international NGO's, and local stakeholders, this project addresses the problem of illicit antiquities trafficking by using computer simulations to illuminate the relationship between existing transportation infrastructures and the paths criminals use to transport stolen antiquities from archaeological sites. We believe this project will provide proof of concept that computer simulations can reliably identify routes that smugglers would select when moving illicit goods.  
 
