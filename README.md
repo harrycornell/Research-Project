@@ -508,7 +508,7 @@ No Cartel
 
 No Crime Rate
 
-<img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.pngg" width="400">
+<img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.png" width="400">
 
 No Circuity
 
