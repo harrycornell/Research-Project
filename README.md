@@ -274,10 +274,6 @@ The routes were defined next using the maps that were generated.  Each of the 67
 | Sabinas to Piedras Negras | 63.8 | 75.6 | 1.2 | 7.1 | 168297 |
 | Piedras Negras to Nuevo Laredo | 103.0 | 110.0 | 1.1 | 15.2 | 432926 |
 
-### 5.5 Graph Tea Writeup
-
-**Write up a little about Graph Tea.  Then show a pic of the routes and cities in Graph Tea.  This should be in section 6 since that is where we calculate the data to enter into Graph Tea**
-
 ## 6. Results
 
 ### 6.1 Route Decision Questionnaire Responses
