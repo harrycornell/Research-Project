@@ -444,6 +444,37 @@ The route weights were as follows:
 | Monterrey to Nueva Ciudad Guerrero | 0.66 | 0.85 | 0.00 | 1.00 | 1.00 | 9.82 |
 | Nueva Ciudad Guerrero to Nuevo Laredo | 0.80 | 0.91 | 0.20 | 0.73 | 1.00 | 10.31 |
 
+### 6.5 Sensitivity Analyses
+
+For completeness, a sensitivity analysis was conducted. When one of the attributes was removed and the route was generated using only four attributes, the simulation produced the same route for each attribute combination as it had when it was run with all five attributes, with the exception of the model that was generated without the Population attribute. 
+
+| Attributes | Results |
+| --- | --- |
+| Circuity, Crime, Population, Cartel | <img src="images/MexicoRoutes_Cir_Cr_Pop_Cart_PS.png" width="400"> |
+| Distance, Circuity, Crime, Population | <img src="images/MexicoRoutes_Dis_Cir_Cr_Pop_PS.png" width="400"> |
+| Distance, Circuity, Population, Cartel | <img src="images/MexicoRoutes_Dis_Cir_Pop_Cart_PS.png" width="400"> |
+| Distance, Crime, Population, Cartel | <img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.png" width="400"> |
+| Distance, Circuity, Crime, Cartel |  <img src="images/MexicoRoutes_Dis_Cir_Cr_Cart_PS.png" width="400"> |
+
+Addtionally, a second analysis was conducted using only one attribute, instead of all five, the results can be seen below: 
+
+| Attribute | Results |
+| --- | --- |
+| Cartel | <img src="images/MexicoRoutesCartel.png" width="400"> |
+| Circuity | <img src="images/MexicoRoutesCircuity.png" width="400"> |
+| Crime | <img src="images/MexicoRoutesCrime.png" width="400"> |
+| Distance | <img src="images/MexicoRoutesDistance.png" width="400"> |
+| Population |  <img src="images/MexicoRoutesPopulation.png" width="400"> |
+
+When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and crime rates varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. Both of these analysies speak to   the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, it is producing viable alternative options that could prove useful to law enforcement. 
+
+<img src="images/GoogleMaps.png" width="400">
+Google Maps showing the route from Zihuatanejo to Nuevo Laredo
+
+<img src="images/MexicoGoogleMapsRoutes.png" width="400">
+Google Maps route overlaid on route map
+
+
 ## 7. Conclusion
 
 ### 7.1 Compare to other studies results
@@ -455,62 +486,9 @@ Attempting to predict routes using graph theory provides several strengths and w
 The major drawback to this approach is that it requires a more robusts process in order to calculate the weights that are used as model inputes. The current project administered a survey to a small group of human subjects in order to assess the relative importance of our independent variables. While these weights were objectively calculated using data from a sample of college students, the validity of these weights could be improved by gathering data from subjects that are more informed about the issue. This presents a obstacle for applying this graph model to different regions around the world: the model would require a data from a variety of human subjects. 
 
 
-
 [AN & JRR: fill out section, include images, benefits of using this method v. medel method  - Do we  need something in here about how we would validate in a perfect world?]
 
-### 7.2 Comparing the results of the routes (FIND A BETTER NAME)
 
-The route using only the cartel attribute.
-
-<img src="images/MexicoRoutesCartel.png" width="400">
-
-The route using only the route complexity attribute.
-
-<img src="images/MexicoRoutesCircuity.png" width="400">
-
-The route using only the crime rate attribute.
-
-<img src="images/MexicoRoutesCrime.png" width="400">
-
-The route using only the distance attribute.
-
-<img src="images/MexicoRoutesDistance.png" width="400">
-
-The route using only the population attribute.
-
-<img src="images/MexicoRoutesPopulation.png" width="400">
-
-Google Maps showing the route from Zihuatanejo to Nuevo Laredo
-
-<img src="images/GoogleMaps.png" width="400">
-
-Google Maps route showing in the route map
-
-<img src="images/MexicoGoogleMapsRoutes.png" width="400">
-
-When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and crime rates varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. This fact speaks to the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, is producing viable alternative options that could prove useful to law enforcement. 
-
-## Using 4 attributes##
-
-<img src="images/MexicoRoutes_Cir_Cr_Pop_Cart_PS.png" width="400">
-
-No Distance
-
-<img src="images/MexicoRoutes_Dis_Cir_Cr_Cart_PS.png" width="400">
-
-No Population
-
-<img src="images/MexicoRoutes_Dis_Cir_Cr_Pop_PS.png" width="400">
-
-No Cartel
-
-<img src="images/MexicoRoutes_Dis_Cir_Pop_Cart_PS.png" width="400">
-
-No Crime Rate
-
-<img src="images/MexicoRoutes_Dis_Cr_Pop_Cart_PS.png" width="400">
-
-No Circuity
 
 ## 8. Future Work
 
@@ -522,7 +500,7 @@ No Circuity
 
 This project originated from research into the looting of archaeological sites wthin the Middle East and North Africa region and so plans for future work include applying these methods to transportation systems within this area. It would be during this phase of the project that the Regional Questionnaire would be distrubuted via (the channels mentioned abbove). Further, to increase applicablility to the MENA region, aome attributes would need to be weighted as more appropriate measures, including replacing cartel-control with faction-control. 
 
-[Insert regional influence survey here]
+<img src="images/Reg_Infl_Survey_pg1.JPG" width="400" > <img src="images/Reg_Infl_Survey_pg2.JPG" width="400" >
 
 What would we do if we had 6-8 more months? 
 How would we validate? 
