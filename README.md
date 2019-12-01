@@ -399,7 +399,7 @@ The results for each route is shown below.
 | Sabinas to Piedras Negras | 0.81 | 0.90 | 0.10 | 0.89 | 1.00 | 10.42 |
 | Piedras Negras to Nuevo Laredo | 0.65 | 0.99 | 0.20 | 0.73 | 1.00 | 10.01 |
 
-### 6.4 Graph Tea (Change the name) Results
+### 6.4 Graph Tree Results
 
 Graph Tea was used to calculate the route with the least risk calculated on based on the routes attributes and survey results.  The cities were loaded into Graph Tea in their respective geographical locations.  The city's latitude and longitude was used to place the city node for Graph Tea in the program screen space coordinates.  This allowed for an accurate geospacial representation of the city's location within Graph Tea.
 
