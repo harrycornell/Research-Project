@@ -88,8 +88,7 @@ As previously mentioned, the current project aims to address the lack of informa
 
 * Next, we will attempt to gauge the extent that each of these variables influence travel-patterns in the real world.  For this topic, two qualitative surveys will be administered to human subjects. The data gathered will be used to inform our model inputs as well as inform any future attempts to apply this methodology to problem areas in the MENA region. 
 
-<img src="images/Work Flow.png" width="900" > 
-*Project Work Flow*
+<img src="images/Work Flow.png" width="900" > *Project Work Flow*
 
 ### 4.1 Participants
 
@@ -138,8 +137,7 @@ Participants will be recruited through Facebook and social media. Respondents wh
 
 A set of routes were taken from previous studies, mainly the Medel (2015) study which showed the routes that were predicted along a path from a cartel controlled area to the US-Mexico border as shown below.  The Medel (2015) study included many factors to come up with the least risk route that the traffickers may take while traveling.  Using the study as a reference, our project focused on finding the most likely path from the Mexican city of Zihuatanejo in the Pacific coast to Nuevo Laredo, which shares the border with Laredo, TX.
 
-<img src="images/MedelRoutes.png" width="400"> 
-###### *Possible drug smuggling routes, created using shortest path models (Medel, 2015).* 
+<img src="images/MedelRoutes.png" width="400"> *Possible drug smuggling routes, created using shortest path models (Medel, 2015).* 
 
 
 A map was studied showing the major road networks between Zihuatanejo to Nuevo Laredo.  Major population cities along the path were picked out to form the road network and cities that the smugglers would have to travel though.  The cities were plotted into Google Earth along with the linear routes between the cities that matched the road networks that connect the cities.  The result is shown below.
