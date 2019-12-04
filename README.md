@@ -13,13 +13,13 @@ This study addresses the viability of using computer simulations to identify the
 Throughout the Middle East and North Africa (MENA) region, organized criminal gangs have taken advantage of political instability to loot archaeological sites for the purpose of selling illicit antiquities to fund political insurgency and terrorist organizations (Terrill, 2007). While looting in these areas is a centuries-old practice (Luke & Kersel, 2005), advances in technology and a growing demand for antiquities from this region has caused a dramatic increase in these activities (Terrill, 2007).  
 
 <img src="images/DestructionofPalmyra2016_ArbreshInfo.jpg" width="360" > <img src="images/ISISPropoganda_DestructionofNimrud_BBCNews.jpg" width="485" > 
-ISIS destruction of the cultural heritage sites of  Palmyra, 2016 (left, Arbesh.info) and Nimrud, 2015 (right, BBC News). 
+*ISIS destruction of the cultural heritage sites of  Palmyra, 2016 (left, Arbesh.info) and Nimrud, 2015 (right, BBC News).* 
 
 During the insurgency of Syria and Iraq by the Islamic State of Iraq and Syria (ISIS) in 2014, the terrorist organization often televised the systematic destruction of what they termed “idolatrous” heritage. Using this as justification for the destruction of cultural heritage sites in the region, ISIS quietly looted these sites prior to their televised destruction, with the funds gained on the black market used to further support their effort (Terrill 2017). During this same time period, ISIS routinely issued permits to groups in the areas under their control, allowing for the looting of archaeological and cultural heritage sites, with the permit holders sharing a portion of the black-market profits with ISIS in exchange for the right to keep some of the profits for themselves. The looting of these sites and the subsequent improvements to domestic and household structures in the areas bordering the sites has been observed through analysis of satellite imagery of these locations (Casana, 2015; Parcak, 2013). In the intervening years, while the presence of ISIS in the region has been marginalized, the looting of archaeological sites continues in the destabilized region (Casana, 2015; Parcak et al., 2016; Terrill, 2017). Oftentimes, the looting of these resources is not known until months after the fact, often seen by satellite imagery or when locals discuss their activities with archaeologists returning to some of the affected areas to continue their research (Casana, 2015; Proulx, 2013). 
 
 <img src="images/TellMardikh_Syria_2014.jpg" width="430" >  <img src="images/TellesSinn_Syria_2014.png" width="330" >
 
-Satellite imagery of looting pits at Syrian archaeological sites Tell Mardikh (left) and Tell es-Sinn (right). (Cassana, 2015.)
+*Satellite imagery of looting pits at Syrian archaeological sites Tell Mardikh (left) and Tell es-Sinn (right)(Cassana, 2015).*
 
 The duel impact of the loss of cultural heritage and the monies gained from their sale are motivation to find methods to intercept stolen antiquities before they reach the black market. Understanding the methods of transportation that these groups utilize is essential to understanding how they are moving goods from the initial archaeological sites, through the countries, across the borders, and into safe houses where they could be held for decades before they are sold. 
 
@@ -27,7 +27,7 @@ Computer simulations present an intriguing avenue for this research. By first un
 
 <img src="images/Medel2015_MXRoutes.jpg" width="350" >  <img src="images/graphtheoryexample.png" width="400" >
 
-Examples of using least risk with shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, CITE).           
+*Examples of using least risk with shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, CITE).*           
 
 In an attempt to aid cultural heritage workers, international NGO's, and local stakeholders, this project addresses the problem of illicit antiquities trafficking by using computer simulations to illuminate the relationship between existing transportation infrastructures and the paths criminals use to transport stolen antiquities from archaeological sites. We believe this project will provide proof of concept that computer simulations can reliably identify routes that smugglers would select when moving illicit goods.  
 
@@ -93,7 +93,7 @@ As previously mentioned, the current project aims to address the lack of informa
 
 * Next, we will attempt to gauge the extent that each of these variables influence travel-patterns in the real world.  For this topic, two qualitative surveys will be administered to human subjects. The data gathered will be used to inform our model inputs as well as inform any future attempts to apply this methodology to problem areas in the MENA region. 
 
-<img src="images/Work Flow.png" width="900" > Project Work Flow
+<img src="images/Work Flow.png" width="900" > *Project Work Flow*
 
 ### 4.1 Participants
 
@@ -118,7 +118,7 @@ Drawing from the methods developed by Medel (2015), our graph model will be deve
 
 Links between nodes will represent the pathway between major way-points. As a base, these links will be given a value that corresponds to the distance between nodes. Then, this distance will be weighted by population, route complexity, crime rate and faction presence of connected nodes. Once this network has been established, routing will be completed using Dijkstra's shortest path algorithm. Because the distance between nodes was weighed by our regional variables, this model will represent the path of least-risk.
 
-<img src="images/MX_NodesLinks_Alpha.jpg" width="400" > (Map created with ArcGIS)
+<img src="images/MX_NodesLinks_Alpha.jpg" width="400" > *Map of links and nodes overlaid on map of Mexico (created using ESRI ArcGIS 10.7).*
 
 ### 5.2 Surveys
 
@@ -143,14 +143,13 @@ Participants will be recruited through Facebook and social media. Respondents wh
 A set of routes were taken from previous studies, mainly the Medel (2015) study which showed the routes that were predicted along a path from a cartel controlled area to the US-Mexico border as shown below.  The Medel (2015) study included many factors to come up with the least risk route that the traffickers may take while traveling.  Using the study as a reference, our project focused on finding the most likely path from the Mexican city of Zihuatanejo in the Pacific coast to Nuevo Laredo, which shares the border with Laredo, TX.
 
 <img src="images/MedelRoutes.png" width="400"> 
-Possible drug smuggling routes, created using shortest path models (Medel, 2015). 
+*Possible drug smuggling routes, created using shortest path models (Medel, 2015).* 
 
 
 A map was studied showing the major road networks between Zihuatanejo to Nuevo Laredo.  Major population cities along the path were picked out to form the road network and cities that the smugglers would have to travel though.  The cities were plotted into Google Earth along with the linear routes between the cities that matched the road networks that connect the cities.  The result is shown below.
 
 <img src="images/RoutesKMZ.png" width="300"> 
-Mexican cities and roads selected for graph theory model. 
-
+*Mexican cities and roads selected for graph theory model.*
 
 ### 5.4 Route and City Information
 
@@ -159,7 +158,7 @@ With the cities defined, information was gathered about each city to start to fo
 City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Reed, 2015).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="800"> 
-<img src="images/CartelMXLegend.png" width="500" > Modified map of Mexican cartel control with selected cities and roads overlaid (basemap: Reed, 2015).
+<img src="images/CartelMXLegend.png" width="500" > *Georectified map of Mexican cartel control with selected cities and roads overlaid (created using ESRI ArcGIS 10.7; basemap: Reed, 2015).*
 
 
 In total, the following information was collected for the 34 cities selected: 
@@ -403,16 +402,17 @@ The results for each route is shown below.
 
 Graph Tea was used to calculate the route with the least risk calculated on based on the routes attributes and survey results.  The cities were loaded into Graph Tea in their respective geographical locations.  The city's latitude and longitude was used to place the city node for Graph Tea in the program screen space coordinates.  This allowed for an accurate geospacial representation of the city's location within Graph Tea.
 
-The routes were defined using the city to city routes with the weights defined from the results each routes attributes and the weighting determined by the Route Decision Questionnaire results.  The route weight that was calculated for each route represents the amount of risk associated with that route.  The input into Graph Tea is show below.
+The routes were defined using the city to city routes with the weights defined from the results each routes attributes and the weighting determined by the Route Decision Questionnaire results.  The route weight that was calculated for each route represents the amount of risk associated with that route.  The input into Graph Tea is show below:
 
 <img src="images/GraphTeaInput.png" width="400"> 
+ 
 
 Graph Tea was ran with the input of the cities, routes, and weights to find the least risk path between the source city and the destination city.  For this, the Dijkstra algorithm was ran.  Within the program, the route with the smallest weights was calculated, which represents the route with the least amount of risk.  The results are shown below in the image and a link to a video showing the Dijkstra algorithm being ran.
 
 <img src="images/MexicoRoutes.png" width="400">
-Graph Tea results with five attributes. 
+*Graph Tea results with five attributes.* 
 
-The video will go to a link that can download the mp4 file for playback.
+The video will go to a link that can download the mp4 file for playback:
 
 [![Graph Tea](images/MexicoRoutes85.png)](https://github.com/harrycornell/Research-Project/blob/master/images/MexicoRoutes.mp4)
 
@@ -466,13 +466,13 @@ Addtionally, a second analysis was conducted using only one attribute, instead o
 | Distance | <img src="images/MexicoRoutesDistance.png" width="400"> |
 | Population |  <img src="images/MexicoRoutesPopulation.png" width="400"> |
 
-When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and crime rates varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. Both of these analysies speak to   the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, it is producing viable alternative options that could prove useful to law enforcement. 
+When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and cartel varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. Both of these analysies speak to   the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, it is producing viable alternative options that could prove useful to law enforcement. 
 
 <img src="images/GoogleMaps.png" width="400">
-Google Maps showing the route from Zihuatanejo to Nuevo Laredo
+*Google Maps generated route from Zihuatanejo to Nuevo Laredo.*
 
 <img src="images/MexicoGoogleMapsRoutes.png" width="400">
-Google Maps route overlaid on route map
+*Google Maps generated route overlaid on Graph Tea route map.*
 
 
 ## 7. Conclusion
@@ -495,7 +495,7 @@ Additionally, the current project focused on drug smuggling within Mexico. The d
 
 With more time to develop our method it is also important for us to further validate our results. There appears to be some agreeance among our graph model and previous works. However, we intend on collecting data on the locations that smugglers have been caught with goods and collect first-hand experiences that we can test our model against. This was simply out of the scope of the current project. 
 
-See below for the Regional Influence Survy
+See below for the Regional Influence Survey:
 
 <img src="images/Reg_Infl_Survey_pg1.JPG" width="400" > <img src="images/Reg_Infl_Survey_pg2.JPG" width="400" >
 
