@@ -118,7 +118,7 @@ Drawing from the methods developed by Medel (2015), our graph model will be deve
 
 Links between nodes will represent the pathway between major way-points. As a base, these links will be given a value that corresponds to the distance between nodes. Then, this distance will be weighted by population, route complexity, crime rate and faction presence of connected nodes. Once this network has been established, routing will be completed using Dijkstra's shortest path algorithm. Because the distance between nodes was weighed by our regional variables, this model will represent the path of least-risk.
 
-<img src="images/MX_NodesLinks_Alpha.jpg" width="400" > *Map of links and nodes overlaid on map of Mexico (created using ESRI ArcGIS 10.7).*
+<img src="images/MX_NodesLinks_Alpha.jpg" width="600" > *Map of links and nodes overlaid on map of Mexico (created using ESRI ArcGIS 10.7).*
 
 ### 5.2 Surveys
 
