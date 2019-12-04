@@ -156,8 +156,7 @@ With the cities defined, information was gathered about each city to start to fo
 City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Reed, 2015).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="800"> 
-<img src="images/CartelMXLegend.png" width="500" > 
-*Georectified map of Mexican cartel control with selected cities and roads overlaid (created using ESRI ArcGIS 10.7; basemap: Reed, 2015).*
+<img src="images/CartelMXLegend.png" width="500" > *Georectified map of Mexican cartel control with selected cities and roads overlaid (created using ESRI ArcGIS 10.7; basemap: Reed, 2015).*
 
 
 In total, the following information was collected for the 34 cities selected: 
@@ -408,8 +407,8 @@ The routes were defined using the city to city routes with the weights defined f
 
 Graph Tea was ran with the input of the cities, routes, and weights to find the least risk path between the source city and the destination city.  For this, the Dijkstra algorithm was ran.  Within the program, the route with the smallest weights was calculated, which represents the route with the least amount of risk.  The results are shown below in the image and a link to a video showing the Dijkstra algorithm being ran.
 
-<img src="images/MexicoRoutes.png" width="400">
-*Graph Tea results with five attributes.* 
+<img src="images/MexicoRoutes.png" width="400"> *Graph Tea results with five attributes.* 
+
 
 The video will go to a link that can download the mp4 file for playback:
 
@@ -467,11 +466,10 @@ Addtionally, a second analysis was conducted using only one attribute, instead o
 
 When running the simulation using only one attribute, instead of considering all five, there was variation in the routes. When using only one attribute, the routes generated for population, distance, and cartel varied slightly. Interestingly, however, the routes generated for both crime and circuity were the same. Also interesting, none of the routes match the recommended route from Google Maps, which also uses graph theory to generate routes, though uses different attributes to define weights. Both of these analysies speak to   the usefulness of this method. The simulation is not just generating a traditional route, but by taking into considerations the factors that have proven to be of importance to smugglers, it is producing viable alternative options that could prove useful to law enforcement. 
 
-<img src="images/GoogleMaps.png" width="400">
-*Google Maps generated route from Zihuatanejo to Nuevo Laredo.*
+<img src="images/GoogleMaps.png" width="400"> *Google Maps generated route from Zihuatanejo to Nuevo Laredo.*
 
-<img src="images/MexicoGoogleMapsRoutes.png" width="400">
-*Google Maps generated route overlaid on Graph Tea route map.*
+
+<img src="images/MexicoGoogleMapsRoutes.png" width="400"> *Google Maps generated route overlaid on Graph Tea route map.*
 
 
 ## 7. Conclusion
