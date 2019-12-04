@@ -92,8 +92,7 @@ As previously mentioned, the current project aims to address the lack of informa
 
 * Next, we will attempt to gauge the extent that each of these variables influence travel-patterns in the real world.  For this topic, two qualitative surveys will be administered to human subjects. The data gathered will be used to inform our model inputs as well as inform any future attempts to apply this methodology to problem areas in the MENA region. 
 
-<img src="images/Work Flow.png" width="900" > 
-###### *Project Work Flow*
+<img src="images/Work Flow.png" width="900" > ###### *Project Work Flow*
 
 ### 4.1 Participants
 
