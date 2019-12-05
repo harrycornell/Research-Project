@@ -137,12 +137,16 @@ Participants will be recruited through Facebook and social media. Respondents wh
 
 A set of routes were taken from previous studies, mainly the Medel (2015) study which showed the routes that were predicted along a path from a cartel controlled area to the US-Mexico border as shown below.  The Medel (2015) study included many factors to come up with the least risk route that the traffickers may take while traveling.  Using the study as a reference, our project focused on finding the most likely path from the Mexican city of Zihuatanejo in the Pacific coast to Nuevo Laredo, which shares the border with Laredo, TX.
 
-<img src="images/MedelRoutes.png" width="400"> *Possible drug smuggling routes, created using shortest path models (Medel, 2015).* 
+<img src="images/MedelRoutes.png" width="400">
+
+*Possible drug smuggling routes, created using shortest path models (Medel, 2015).* 
 
 
 A map was studied showing the major road networks between Zihuatanejo to Nuevo Laredo.  Major population cities along the path were picked out to form the road network and cities that the smugglers would have to travel though.  The cities were plotted into Google Earth along with the linear routes between the cities that matched the road networks that connect the cities.  The result is shown below.
 
-<img src="images/RoutesKMZ.png" width="300"> *Mexican cities and roads selected for graph theory model.*
+<img src="images/RoutesKMZ.png" width="300">
+
+*Mexican cities and roads selected for graph theory model.*
 
 
 ### 5.4 Route and City Information
@@ -152,7 +156,9 @@ With the cities defined, information was gathered about each city to start to fo
 City information of crime rate and population was found using crime data that reported the crime rate and population for each city (“Mexico Crime Map,” n.d.).  Cartel information was gathered showing which cartels control different areas (Reed, 2015).  This map was overlaid onto the route maps to allow us to determine which cartels control the different areas for each city.
 
 <img src="images/RoutesWithCartel.png" width="800"> 
-<img src="images/CartelMXLegend.png" width="500" > *Georectified map of Mexican cartel control with selected cities and roads overlaid (basemap by Reed, 2015).*
+<img src="images/CartelMXLegend.png" width="500" > 
+
+*Georectified map of Mexican cartel control with selected cities and roads overlaid (basemap by Reed, 2015).*
 
 
 In total, the following information was collected for the 34 cities selected: 
