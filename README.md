@@ -22,7 +22,7 @@ The duel impact of the loss of cultural heritage and the monies gained from thei
 
 Computer simulations present an intriguing avenue for this research. By first understanding the transportation options available to smugglers, simulations can be informed which can provide reliable insight on the routes that smugglers would select when transporting illicit antiquities away from looted archaeological sites. Research into transnational smuggling indicates that when transporting illicit goods, smugglers will often transport goods overland following two methods, by hiding in plain sight and/or by moving with stealth (Basu, 2013; Basu, 2014). Following the idea that smugglers will make rational informed decisions when selecting these overland routes (Basu, 2014; Medel, 2015), this project has several aims: first, to use computer simulations to identify viable routes traffickers would use based on previous literature and the application of graph theory; second, to use this data to construct two qualitative surveys designed to provide insight into the decisions participants will make when provided information on road conditions, route circuity, faction-control, crime rates, and available alternative routes, as well as how they rank the importance of these factors; and finally, to use this data to inform a link-weighting system designed to produce the least-cost paths smugglers would likely select when faced with the same decisions. 
 
-<img src="images/Medel2015_MXRoutes.jpg" width="350" >  <img src="images/graphtheoryexample.png" width="400" > *Examples of using least risk with shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, CITE).*           
+<img src="images/Medel2015_MXRoutes.jpg" width="350" >  <img src="images/types-of-graphs17.png" width="400" > *Examples of using least risk with shortest path theory applied to smuggling (left, Medel, 2015) and graph theory algorithm (left, Graph Theory Types of Graphs—Javatpoint, n.d.).*           
 
 In an attempt to aid cultural heritage workers, international NGO's, and local stakeholders, this project addresses the problem of illicit antiquities trafficking by using computer simulations to illuminate the relationship between existing transportation infrastructures and the paths criminals use to transport stolen antiquities from archaeological sites. We believe this project will provide proof of concept that computer simulations can reliably identify routes that smugglers would select when moving illicit goods.  
 
@@ -508,6 +508,8 @@ Basu, G. (2013). The role of transnational smuggling operations in illicit suppl
 Basu, G. (2014). The strategic attributes of transnational smuggling: Logistics flexibility and operational stealth in the facilitation of illicit trade. Journal of Transportation Security, 7(2), 99–113. https://doi.org/10.1007/s12198-013-0132-0
 
 Casana, J. (2015). Satellite imagery-based analysis of archaeological looting in Syria. Near Eastern Archaeology, 78(3), 142–152.
+
+Graph Theory Types of Graphs—Javatpoint. (n.d.). Retrieved December 8, 2019, from Www.javatpoint.com website: https://www.javatpoint.com/graph-theory-types-of-graphs
 
 Luke, Christina, and Morag Kersel. (2005). A Retrospective and a Look Forward. Journal of Field Archaeology, 30(2), 191-200.
 
