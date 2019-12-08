@@ -476,7 +476,7 @@ When running the simulation using only one attribute, instead of considering all
 
 ## 7. Conclusion
 
-### 7.1 Compare to other studies results
+### 7.1 Compare to Other Studies Results
 
 The current study serves as a proof of concept for using graphy theory to the predict routes used by artifact smugglers when traveling over land.  As seen above, the routes generated here appear to be reasonable in that they do not take illogical or random deviations from the fastest routes provided by standard  software like Google Maps. Instead, deviations from the most obvious route reflect the unqiue considerations that might be taken by individual criminal organizations. Similarly, the routes that our graph model predicted share a general directionality to those routes predicted by Medel who employed a  surface cost analysis (Medel, 2014). Similary among these approaches provides increased confidence that our routes represent reasonable pathways from Southern to Northern Mexico. The primary difference between the current model and the routes provided by Medel (2014) and Google Maps is that the current model is operates at a low resolution. Instead of predicting the exact roads or highway networks used by smugglers, the current project predicts the cities that a smugglers might pass through during their trips in the country. 
 
@@ -493,6 +493,8 @@ As previously mentioned, this project serves  as a foundation for future efforts
 Additionally, the current project focused on drug smuggling within Mexico. The decision to use data from Mexico was mainly made because of resource limitations.  However, the goal of this work is to address the looting of archaeological sites wthin the MENA region.  The next phase of the project aims apply these methods to the MENA region. It would be during this phase of the project that the Regional Questionnaire would be distrubuted to participants in the affected countries. Further, to increase applicablility to the MENA region, we intend on reassessing our model inputs to better address artifcat smuggling and infrastructure challenges within MENA. For example, some attributes would need to be more heavily weighted and the cartel relationships we modeled here would need to be replaced with faction dynamics present the Middle East.
 
 With more time to develop our method it is also important for us to further validate our results. There appears to be some agreeance among our graph model and previous works. However, we intend on collecting data on the locations that smugglers have been caught with goods and collect first-hand experiences that we can test our model against. This was simply out of the scope of the current project. 
+
+With the use of graph theory, the model should have the results analyized to validate and verify the results.  During the project, there were some sensitivity tests ran along with routes using just one attribute.  Although Dijkstra's algoritm found the path with the least risk, a more detailed study of the results should be done to determine why other routes were not used by the algorithm.  This will give an understanding to the verification of the routes and attributes to ensure that the initial setup was not flawed or biased.
 
 See below for the Regional Influence Survey:
 
