@@ -115,7 +115,7 @@ Drawing from the methods developed by Medel (2015), our graph model will be deve
 
 Links between nodes will represent the pathway between major way-points. As a base, these links will be given a value that corresponds to the distance between nodes. Then, this distance will be weighted by population, route complexity, crime rate and faction presence of connected nodes. Once this network has been established, routing will be completed using Dijkstra's shortest path algorithm. Because the distance between nodes was weighed by our regional variables, this model will represent the path of least-risk.
 
-<img src="images/MX_NodesLinks_Alpha.jpg" width="600" > *Map of links and nodes overlaid on map of Mexico (created using ESRI ArcGIS 10.7).*
+<img src="images/RD_pg1.JPG" width="600" > *Map of links and nodes overlaid on map of Mexico (created using ESRI ArcGIS 10.7).*
 
 ### 5.2 Surveys
 
@@ -129,7 +129,9 @@ RHP-255 forms for both questionnaires will be submitted for review by UCF’s IR
 
 Participants recruited through SONA will be asked to fill out the questionnaire in a face-to-face session. The function of an in-person meeting is to ensure that any questions from the participant concerning this nuanced cultural issue can be fully addressed be researchers. After receiving a thorough briefing on the topic, participants will be allowed to complete the paper-based form in private. This questionnaire is not expected to take more than 15 minutes to complete. 
 
-[Insert Route Decision Questionnaire]
+<img src="images/MX_NodesLinks_Alpha.jpg" width="400" >   <img src="images/RD_pg2.JPG" width="400" >
+
+*Route Decision Questionnaire*
 
 #### 5.2.3 Regional Influence Questionnaire
 
