@@ -129,7 +129,7 @@ RHP-255 forms for both questionnaires will be submitted for review by UCF’s IR
 
 Participants recruited through SONA will be asked to fill out the questionnaire in a face-to-face session. The function of an in-person meeting is to ensure that any questions from the participant concerning this nuanced cultural issue can be fully addressed be researchers. After receiving a thorough briefing on the topic, participants will be allowed to complete the paper-based form in private. This questionnaire is not expected to take more than 15 minutes to complete. 
 
-<img src="images/MX_NodesLinks_Alpha.jpg" width="400" >   <img src="images/RD_pg2.JPG" width="400" >
+<img src="images/RD_pg1.JPG" width="400" >   <img src="images/RD_pg2.JPG" width="400" >
 
 *Route Decision Questionnaire*
 
