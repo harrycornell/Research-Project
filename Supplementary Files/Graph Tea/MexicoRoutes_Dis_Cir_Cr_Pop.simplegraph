@@ -1,0 +1,448 @@
+graph:
+undirected
+label G0
+font Monospaced 1 10
+begin vertices:
+vertex 0:
+label Aguascalientes
+location 501.0,240.0
+color 0
+labellocation 0.0 0.4
+vertex 1:
+label Celaya
+location 602.0,283.0
+color 0
+labellocation 0.0 0.4
+vertex 2:
+label Ciudad_Valles
+location 726.0,236.0
+color 0
+labellocation 0.0 0.4
+vertex 3:
+label Ciudad_Victoria
+location 717.0,181.0
+color 0
+labellocation 0.0 0.4
+vertex 4:
+label Fresnillo
+location 461.0,199.0
+color 0
+labellocation 0.0 0.4
+vertex 5:
+label Guadalajara
+location 428.0,279.0
+color 0
+labellocation 0.0 0.4
+vertex 6:
+label Huetamo
+location 596.0,343.0
+color 0
+labellocation 0.0 0.4
+vertex 7:
+label Irapuato
+location 565.0,278.0
+color 0
+labellocation 0.0 0.4
+vertex 8:
+label La_Piedad
+location 518.0,289.0
+color 0
+labellocation 0.0 0.4
+vertex 9:
+label León
+location 542.0,264.0
+color 0
+labellocation 0.0 0.4
+vertex 10:
+label Linares
+location 688.0,146.0
+color 0
+labellocation 0.0 0.4
+vertex 11:
+label Matehuala
+location 614.0,184.0
+color 0
+labellocation 0.0 0.4
+vertex 12:
+label Monclova
+location 561.0,81.0
+color 0
+labellocation 0.0 0.4
+vertex 13:
+label Monterrey
+location 636.0,120.0
+color 0
+labellocation 0.0 0.4
+vertex 14:
+label Morelia
+location 576.0,309.0
+color 0
+labellocation 0.0 0.4
+vertex 15:
+label Nueva_Ciudad_Guerrero
+location 711.0,92.0
+color 0
+labellocation 0.0 0.4
+vertex 16:
+label Nueva_Italia_de_Ruiz
+location 515.0,331.0
+color 0
+labellocation 0.0 0.4
+vertex 17:
+label Nuevo_Laredo
+location 692.0,62.0
+color 0
+labellocation 0.0 0.4
+vertex 18:
+label Pátzcuaro
+location 548.0,315.0
+color 0
+labellocation 0.0 0.4
+vertex 19:
+label Piedras_Negras
+location 621.0,25.0
+color 0
+labellocation 0.0 0.4
+vertex 20:
+label Reynosa
+location 775.0,108.0
+color 0
+labellocation 0.0 0.4
+vertex 21:
+label Rioverde
+location 659.0,239.0
+color 0
+labellocation 0.0 0.4
+vertex 22:
+label Sabinas
+location 580.0,51.0
+color 0
+labellocation 0.0 0.4
+vertex 23:
+label Sabinas_Hidalgo
+location 646.0,94.0
+color 0
+labellocation 0.0 0.4
+vertex 24:
+label Saltillo
+location 591.0,128.0
+color 0
+labellocation 0.0 0.4
+vertex 25:
+label San_Juan_de_los_Lagos
+location 498.0,260.0
+color 0
+labellocation 0.0 0.4
+vertex 26:
+label San_Juan_del_Río
+location 659.0,287.0
+color 0
+labellocation 0.0 0.4
+vertex 27:
+label San_Luis_Potosí
+location 590.0,231.0
+color 0
+labellocation 0.0 0.4
+vertex 28:
+label San_Tiburcio
+location 556.0,168.0
+color 0
+labellocation 0.0 0.4
+vertex 29:
+label Torreón
+location 425.0,124.0
+color 0
+labellocation 0.0 0.4
+vertex 30:
+label Uruapan
+location 518.0,319.0
+color 0
+labellocation 0.0 0.4
+vertex 31:
+label Zacatecas
+location 481.0,212.0
+color 0
+labellocation 0.0 0.4
+vertex 32:
+label Zamora
+location 501.0,300.0
+color 0
+labellocation 0.0 0.4
+vertex 33:
+label Zihuatanejo
+location 552.0,375.0
+color 0
+labellocation 0.0 0.4
+begin edges
+33 -> 6
+label Zihuatanejo_to_Huetamo
+color 0
+weight 473
+33 -> 16
+label Zihuatanejo_to_Nueva_Italia_de_Ruiz
+color 0
+weight 571
+16 -> 30
+label Nueva_Italia_de_Ruiz_to_Uruapan
+color 0
+weight 872
+6 -> 14
+label Huetamo_to_Morelia
+color 0
+weight 527
+30 -> 18
+label Uruapan_to_Pátzcuaro
+color 0
+weight 722
+18 -> 14
+label Pátzcuaro_to_Morelia
+color 0
+weight 737
+14 -> 26
+label Morelia_to_San_Juan_del_Río
+color 0
+weight 462
+14 -> 1
+label Morelia_to_Celaya
+color 0
+weight 629
+14 -> 7
+label Morelia_to_Irapuato
+color 0
+weight 715
+1 -> 7
+label Celaya_to_Irapuato
+color 0
+weight 790
+7 -> 1
+label Irapuato_to_Celaya
+color 0
+weight 748
+26 -> 1
+label San_Juan_del_Río_to_Celaya
+color 0
+weight 703
+1 -> 26
+label Celaya_to_San_Juan_del_Río
+color 0
+weight 651
+18 -> 8
+label Pátzcuaro_to_La_Piedad
+color 0
+weight 470
+30 -> 32
+label Uruapan_to_Zamora
+color 0
+weight 788
+32 -> 8
+label Zamora_to_La_Piedad
+color 0
+weight 756
+8 -> 7
+label La_Piedad_to_Irapuato
+color 0
+weight 752
+32 -> 5
+label Zamora_to_Guadalajara
+color 0
+weight 467
+8 -> 5
+label La_Piedad_to_Guadalajara
+color 0
+weight 474
+8 -> 9
+label La_Piedad_to_León
+color 0
+weight 530
+7 -> 9
+label Irapuato_to_León
+color 0
+weight 586
+26 -> 27
+label San_Juan_del_Río_to_San_Luis_Potosí
+color 0
+weight 482
+1 -> 27
+label Celaya_to_San_Luis_Potosí
+color 0
+weight 432
+7 -> 27
+label Irapuato_to_San_Luis_Potosí
+color 0
+weight 515
+9 -> 27
+label León_to_San_Luis_Potosí
+color 0
+weight 525
+5 -> 25
+label Guadalajara_to_San_Juan_de_los_Lagos
+color 0
+weight 650
+25 -> 27
+label San_Juan_de_los_Lagos_to_San_Luis_Potosí
+color 0
+weight 543
+9 -> 25
+label León_to_San_Juan_de_los_Lagos
+color 0
+weight 699
+25 -> 9
+label San_Juan_de_los_Lagos_to_León
+color 0
+weight 546
+26 -> 21
+label San_Juan_del_Río_to_Rioverde
+color 0
+weight 227
+21 -> 27
+label Rioverde_to_San_Luis_Potosí
+color 0
+weight 474
+27 -> 21
+label San_Luis_Potosí_to_Rioverde
+color 0
+weight 538
+26 -> 2
+label San_Juan_del_Río_to_Ciudad_Valles
+color 0
+weight 358
+21 -> 2
+label Rioverde_to_Ciudad_Valles
+color 0
+weight 680
+2 -> 21
+label Ciudad_Valles_to_Rioverde
+color 0
+weight 659
+2 -> 11
+label Ciudad_Valles_to_Matehuala
+color 0
+weight 588
+27 -> 11
+label San_Luis_Potosí_to_Matehuala
+color 0
+weight 637
+2 -> 3
+label Ciudad_Valles_to_Ciudad_Victoria
+color 0
+weight 594
+3 -> 10
+label Ciudad_Victoria_to_Linares
+color 0
+weight 601
+11 -> 10
+label Matehuala_to_Linares
+color 0
+weight 513
+10 -> 13
+label Linares_to_Monterrey
+color 0
+weight 546
+13 -> 23
+label Monterrey_to_Sabinas_Hidalgo
+color 0
+weight 668
+23 -> 17
+label Sabinas_Hidalgo_to_Nuevo_Laredo
+color 0
+weight 651
+13 -> 15
+label Monterrey_to_Nueva_Ciudad_Guerrero
+color 0
+weight 589
+15 -> 17
+label Nueva_Ciudad_Guerrero_to_Nuevo_Laredo
+color 0
+weight 638
+13 -> 20
+label Monterrey_to_Reynosa
+color 0
+weight 582
+20 -> 15
+label Reynosa_to_Nueva_Ciudad_Guerrero
+color 0
+weight 620
+5 -> 0
+label Guadalajara_to_Aguascalientes
+color 0
+weight 438
+25 -> 0
+label San_Juan_de_los_Lagos_to_Aguascalientes
+color 0
+weight 582
+0 -> 31
+label Aguascalientes_to_Zacatecas
+color 0
+weight 739
+5 -> 31
+label Guadalajara_to_Zacatecas
+color 0
+weight 549
+27 -> 31
+label San_Luis_Potosí_to_Zacatecas
+color 0
+weight 694
+5 -> 4
+label Guadalajara_to_Fresnillo
+color 0
+weight 542
+31 -> 4
+label Zacatecas_to_Fresnillo
+color 0
+weight 799
+31 -> 28
+label Zacatecas_to_San_Tiburcio
+color 0
+weight 581
+11 -> 28
+label Matehuala_to_San_Tiburcio
+color 0
+weight 652
+28 -> 24
+label San_Tiburcio_to_Saltillo
+color 0
+weight 504
+11 -> 24
+label Matehuala_to_Saltillo
+color 0
+weight 412
+24 -> 13
+label Saltillo_to_Monterrey
+color 0
+weight 566
+4 -> 29
+label Fresnillo_to_Torreón
+color 0
+weight 394
+24 -> 29
+label Saltillo_to_Torreón
+color 0
+weight 490
+29 -> 24
+label Torreón_to_Saltillo
+color 0
+weight 450
+29 -> 12
+label Torreón_to_Monclova
+color 0
+weight 371
+24 -> 12
+label Saltillo_to_Monclova
+color 0
+weight 573
+13 -> 12
+label Monterrey_to_Monclova
+color 0
+weight 577
+12 -> 22
+label Monclova_to_Sabinas
+color 0
+weight 671
+22 -> 19
+label Sabinas_to_Piedras_Negras
+color 0
+weight 648
+19 -> 17
+label Piedras_Negras_to_Nuevo_Laredo
+color 0
+weight 608
