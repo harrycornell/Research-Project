@@ -88,6 +88,8 @@ As previously mentioned, the current project aims to address the lack of informa
 
 * Next, we will attempt to gauge the extent that each of these variables influence travel-patterns in the real world.  For this topic, two qualitative surveys will be administered to human subjects. The data gathered will be used to inform our model inputs as well as inform any future attempts to apply this methodology to problem areas in the MENA region. 
 
+Our organization of project workflow can be seen below, showing the steps and decisions that were taken and made throughout the project:
+
 <img src="images/Work Flow.png" width="900" > *Project Work Flow*
 
 ### 4.1 Participants
@@ -127,7 +129,9 @@ RHP-255 forms for both questionnaires will be submitted for review by UCF’s IR
 
 Participants recruited through SONA will be asked to fill out the questionnaire in a face-to-face session. The function of an in-person meeting is to ensure that any questions from the participant concerning this nuanced cultural issue can be fully addressed be researchers. After receiving a thorough briefing on the topic, participants will be allowed to complete the paper-based form in private. This questionnaire is not expected to take more than 15 minutes to complete. 
 
-[Insert Route Decision Questionnaire]
+<img src="images/RD_pg1.JPG" width="400" >   <img src="images/RD_pg2.JPG" width="400" >
+
+*Route Decision Questionnaire*
 
 #### 5.2.3 Regional Influence Questionnaire
 
@@ -503,28 +507,86 @@ See below for the Regional Influence Survey:
 
 ## References
 
-Alderman, K. L. (2012). Honor Amongst Thieves: Organized Crime and the Illicit Antiquities Trade. Indiana Law Review, 45, 27.
+Alderman, K. L. (n.d.). Honor Amongst Thieves: Organized Crime and the Illicit Antiquities Trade. Indiana Law Review, 45, 27.
+
+Barker, A. (2018a, June 5). Tracking the smugglers’ trail of priceless Islamic State loot to art markets in the West. Retrieved    September 27, 2019, from ABC News (Australian Broadcasting Corporation website: https://www.abc.net.au/news/2018-06-06/priceless- antiques-looted-by-is-smuggled-into-western-markets/9833554 
+
+Barker, A. (2018b, June 6). A one-ton mosaic likely stolen from Syria turns up in the West. It’s the “tip of the iceberg” [Text]. Retrieved September 27, 2019, from ABC News website: https://www.abc.net.au/news/2018-06-06/priceless-antiques-looted-by-is-smuggled-into-western-markets/9833554
+
+Barthélemy, J., & Carletti, T. (2017). An adaptive agent-based approach to traffic simulation. Transportation Research Procedia, 25, 1238–1248. https://doi.org/10.1016/j.trpro.2017.05.142
+
+Barzoukas, G., & Institute for Security Studies (Paris, F. (2017). Drug trafficking in the MENA: The economics and the politics. Retrieved from http://dx.publications.europa.eu/10.2815/972478
 
 Basu, G. (2013). The role of transnational smuggling operations in illicit supply chains. Journal of Transportation Security, 6(4), 315–328. https://doi.org/10.1007/s12198-013-0118-y
 
 Basu, G. (2014). The strategic attributes of transnational smuggling: Logistics flexibility and operational stealth in the facilitation of illicit trade. Journal of Transportation Security, 7(2), 99–113. https://doi.org/10.1007/s12198-013-0132-0
 
+Beittel, J. S. (n.d.). Mexico: Organized Crime and Drug Trafficking Organizations. 35.
+
+Blannin, P. (2017). Islamic State’s Financing: Sources, Methods and Utilisation. 9(5), 11.
+
+Blythe Bowman Proulx. (2013). Archaeological Site Looting in “Glocal” Perspective: Nature, Scope, and Frequency. American Journal of Archaeology, 117(1), 111. https://doi.org/10.3764/aja.117.1.0111
+
+Brodie, N., & Mackenzie, S. (2014). Trafficking Cultural Objects: Introduction. European Journal on Criminal Policy and Research, 20(4), 421–426. https://doi.org/10.1007/s10610-014-9256-4
+
+Brodie, N., & Renfrew, C. (2005). Looting and The World’s Archaeological Heritage: The Inadequate Response. Annual Review of Anthropology, 34(1), 343–361. https://doi.org/10.1146/annurev.anthro.34.081804.120551
+
+Broek, A. C. van den, Schoemaker, R. M., & Dekker, R. J. (2014). Land Border Permeability and Irregular Migration Using Geospatial Intelligence from Satellite Data. 2014 IEEE Joint Intelligence and Security Informatics Conference, 208–211. https://doi.org/10.1109/JISIC.2014.38
+
+Brunsdon, C., & Singleton, A. (2015). Geocomputation: A Practical Primer. https://doi.org/10.4135/9781473916432
+
+Campbell, P. B. (2013). The Illicit Antiquities Trade as a Transnational Criminal Network: Characterizing and Anticipating Trafficking of Cultural Heritage. International Journal of Cultural Property, 20(2), 113–153. https://doi.org/10.1017/S0940739113000015
+
 Casana, J. (2015). Satellite imagery-based analysis of archaeological looting in Syria. Near Eastern Archaeology, 78(3), 142–152.
+
+Casana, & Panahipour. (2014). Satellite-Based Monitoring of Looting and Damage to Archaeological Sites in Syria. Journal of Eastern Mediterranean Archaeology & Heritage Studies, 2(2), 128. https://doi.org/10.5325/jeasmedarcherstu.2.2.0128
+
+Danese, M., Masini, N., Biscione, M., & Lasaponara, R. (2014). Predictive modeling for preventive Archaeology: Overview and case study. Open Geosciences, 6(1). https://doi.org/10.2478/s13533-012-0160-5
+
+Felner, A. (n.d.). Position Paper: Dijkstra’s Algorithm versus Uniform Cost Search or a Case Against Dijkstra’s Algorithm. 5.
 
 Graph Theory Types of Graphs—Javatpoint. (n.d.). Retrieved December 8, 2019, from Www.javatpoint.com website: https://www.javatpoint.com/graph-theory-types-of-graphs
 
-Luke, Christina, and Morag Kersel. (2005). A Retrospective and a Look Forward. Journal of Field Archaeology, 30(2), 191-200.
+Grayson, G. W. (2014). The Evolution of Los Zetas in Mexico and Central America: Sadism as an Instrument of Cartel Warfare: https://doi.org/10.21236/ADA599872
+
+Greenland, F. (2019). Introduction: New Insights into the Antiquities Market. International Journal of Cultural Property, 26(3), 211–225. https://doi.org/10.1017/S0940739119000237
+
+Inside the hunt for Iraq’s looted treasures. (2019, July 10). Retrieved September 27, 2019, from The Independent website: https://www.independent.co.uk/news/world/middle-east/iraq-archaeology-museum-antiquities-looting-a8996676.html
+
+Jenkins, J. L., Marquardson, J., Proudfoot, J. G., Valacich, J. S., Golob, E., & Nunamaker, J. F. (2013). The Checkpoint Simulation: A Tool for Informing Border Patrol Checkpoint Design and Resource Allocation. 2013 European Intelligence and Security Informatics Conference, 252–255. https://doi.org/10.1109/EISIC.2013.65
+
+Jordan, C. (2016, December 17). New leads on looted Middle Eastern antiquities [Text]. Retrieved September 27, 2019, from TheHill website: https://thehill.com/blogs/congress-blog/foreign-policy/310831-new-leads-on-looted-middle-eastern-antiquities
+
+Latek, M. M., Rizi, S. M. M., Crooks, A., & Fraser, M. (2012). Social Simulations for Border Security. 2012 European Intelligence and Security Informatics Conference, 340–345. https://doi.org/10.1109/EISIC.2012.50
+
+Luke, C., & Kersel, M. (2005). A Retrospective and a Look Forward. Journal of Field Archaeology, 30(2), 191–200. https://doi.org/10.1179/009346905791072323
+
+Madella, M., Rondelli, B., Lancelotti, C., Balbo, A., Zurro, D., Campillo, X. R., & Stride, S. (2014). Introduction to Simulating the Past. Journal of Archaeological Method and Theory, 21(2), 251–257. https://doi.org/10.1007/s10816-014-9209-8
 
 Medel, M., Lu, Y., & Chow, E. (2015). Mexico’s drug networks: Modeling the smuggling routes towards the United States. Applied Geography, 60, 240–247. https://doi.org/10.1016/j.apgeog.2014.10.018
 
-Mexico Crime Map. (n.d.). Retrieved November 16, 2019, from Crimenmexico website: https://elcri.men/en/municipios-map.html
+Parcak, S., Gathings, D., Childs, C., Mumford, G., & Cline, E. (2016). Satellite evidence of archaeological site looting in Egypt: 2002–2013. Antiquity, 90(349), 188–205. https://doi.org/10.15184/aqy.2016.1
 
-Parcak, Sarah, David Gathings, Chase Childs, Greg Mumford, and Eric Cline. (2016). Satellite Evidence of Archaeological Site Looting in Egypt: 2002–2013. Antiquity, 90(349), 188–205.
+Parks, S., Mcanany, P. A., & Murata, S. (2006). The Conservation of Maya Cultural Heritage: Searching for Solutions in a Troubled Region. Journal of Field Archaeology, 31(4), 425–432. https://doi.org/10.1179/009346906791071846
 
-Proulx, B. B. (2013). Archaeological Site Looting in “Glocal” Perspective: Nature, Scope, and Frequency. American Journal of  Archaeology, 117(1), 111. https://doi.org/10.3764/aja.117.1.0111
+Rodríguez-Puente, R., & Lazo-Cortés, M. S. (2013). Algorithm for shortest path search in Geographic Information Systems by using reduced graphs. SpringerPlus, 2(1), 291. https://doi.org/10.1186/2193-1801-2-291
 
-Reed, Tristan. (2015, January 15). Mexico's Drug War: A New Way to Think About Mexican Organized Crime. Retrieved from: https://www.forbes.com/sites/stratfor/2015/01/15/mexicos-drug-war-a-new-way-to-think-about-mexican-organized-crime/#12284266a0ad  
+Rose-Greenland, F. (2014). Looters, collectors and a passion for antiquities at the margins of Italian society. Journal of Modern Italian Studies, 19(5), 570–582. https://doi.org/10.1080/1354571X.2014.962256
 
-Rodríguez-Puente, R., & Lazo-Cortés, M. S. (2013). Algorithm for shortest path search in Geographic Information Systems by using reduced graphs. SpringerPlus, 2(1). https://doi.org/10.1186/2193-1801-2-291
+Samuel, S. (2018, March 19). It’s Disturbingly Easy to Buy Iraq’s Archeological Treasures. Retrieved September 27, 2019, from The Atlantic website: https://www.theatlantic.com/international/archive/2018/03/iraq-war-archeology-invasion/555200/
 
-Terrill, W. Andrew. (2017). Antiquities Destruction and Illicit Sales as Sources of ISIS Funding and Propaganda. Carlisle, PA: U.S. Army War College. 
+Sellers, W. I., Hill, R. A., & Logan, B. S. (2007). An agent-based model of group decision making in baboons. Philosophical Transactions of the Royal Society B: Biological Sciences, 362(1485), 1699–1710. https://doi.org/10.1098/rstb.2007.2064
+
+Sørensen, M. L. S., & Viejo-Rose, D. (Eds.). (2015). War and Cultural Heritage: Biographies of Place. New York, NY: Cambridge University Press.
+
+Stealing from history: The looting and destruction of Iraqi and Syrian heritage concern us all. (n.d.). Retrieved April 2, 2019, from The National website: https://www.thenational.ae/arts-culture/stealing-from-history-the-looting-and-destruction-of-iraqi-and-syrian-heritage-concern-us-all-1.308011
+
+Sullivan, B. L. (n.d.). Stolen artifacts finding way into the world’s art markets. Retrieved September 27, 2019, from Baltimoresun.com website: https://www.baltimoresun.com/bal-te.fbi22apr22-story.html
+
+Swann, S. (2019, May 2). “Loot-to-order” antiquities sold on Facebook. BBC News. Retrieved from https://www.bbc.com/news/world-middle-east-47628369
+
+Visconti, A. (n.d.). Professor of Criminal Law, University of Naples II, Italy; Visiting Professor, Queen Mary University of London, UK; ISPAC Deputy Chair and Director. 210.
+
+Wang, X. Z. (2018). The Comparison of Three Algorithms in Shortest Path Issue. Journal of Physics: Conference Series, 1087, 022011. https://doi.org/10.1088/1742-6596/1087/2/022011
+
+Xue, G., Li, Z., Zhu, H., & Liu, Y. (2009). Traffic-Known Urban Vehicular Route Prediction Based on Partial Mobility Patterns. 2009 15th International Conference on Parallel and Distributed Systems, 369–375. https://doi.org/10.1109/ICPADS.2009.129
