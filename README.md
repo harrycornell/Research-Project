@@ -521,9 +521,9 @@ Basu, G. (2013). The role of transnational smuggling operations in illicit suppl
 
 Basu, G. (2014). The strategic attributes of transnational smuggling: Logistics flexibility and operational stealth in the facilitation of illicit trade. Journal of Transportation Security, 7(2), 99–113. https://doi.org/10.1007/s12198-013-0132-0
 
-Beittel, J. S. (n.d.). Mexico: Organized Crime and Drug Trafficking Organizations. 35.
+Beittel, J. (n.d.). Mexico: Organized Crime and Drug Trafficking Organizations, Version 35. Congressional Research Service. 
 
-Blannin, P. (2017). Islamic State’s Financing: Sources, Methods and Utilisation. 9(5), 11.
+Blannin, P. (2017). Islamic State’s Financing: Sources, Methods and Utilisation. Counter Terrorist Trends and Analyses, 9(5), 11.
 
 Blythe Bowman Proulx. (2013). Archaeological Site Looting in “Glocal” Perspective: Nature, Scope, and Frequency. American Journal of Archaeology, 117(1), 111. https://doi.org/10.3764/aja.117.1.0111
 
@@ -533,7 +533,7 @@ Brodie, N., & Renfrew, C. (2005). Looting and The World’s Archaeological Herit
 
 Broek, A. C. van den, Schoemaker, R. M., & Dekker, R. J. (2014). Land Border Permeability and Irregular Migration Using Geospatial Intelligence from Satellite Data. 2014 IEEE Joint Intelligence and Security Informatics Conference, 208–211. https://doi.org/10.1109/JISIC.2014.38
 
-Brunsdon, C., & Singleton, A. (2015). Geocomputation: A Practical Primer. https://doi.org/10.4135/9781473916432
+Brunsdon, C., & Singleton, A. (2015). Geocomputation: A Practical Primer. Thousand Oaks, CA: SAGE Publications. https://doi.org/10.4135/9781473916432
 
 Campbell, P. B. (2013). The Illicit Antiquities Trade as a Transnational Criminal Network: Characterizing and Anticipating Trafficking of Cultural Heritage. International Journal of Cultural Property, 20(2), 113–153. https://doi.org/10.1017/S0940739113000015
 
@@ -543,19 +543,19 @@ Casana, & Panahipour. (2014). Satellite-Based Monitoring of Looting and Damage t
 
 Danese, M., Masini, N., Biscione, M., & Lasaponara, R. (2014). Predictive modeling for preventive Archaeology: Overview and case study. Open Geosciences, 6(1). https://doi.org/10.2478/s13533-012-0160-5
 
-Felner, A. (n.d.). Position Paper: Dijkstra’s Algorithm versus Uniform Cost Search or a Case Against Dijkstra’s Algorithm. 5.
+Felner, A. (2011). Position Paper: Dijkstra’s Algorithm versus Uniform Cost Search or a Case Against Dijkstra’s Algorithm. In The Fourth International Symposium on Combinatorial Search.
 
 Graph Theory Types of Graphs—Javatpoint. (n.d.). Retrieved December 8, 2019, from Www.javatpoint.com website: https://www.javatpoint.com/graph-theory-types-of-graphs
 
-Grayson, G. W. (2014). The Evolution of Los Zetas in Mexico and Central America: Sadism as an Instrument of Cartel Warfare: https://doi.org/10.21236/ADA599872
+Grayson, G. W. (2014). The Evolution of Los Zetas in Mexico and Central America: Sadism as an Instrument of Cartel Warfare. Strategic Studies Institute: Army War College (U.S.) https://doi.org/10.21236/ADA599872
 
 Greenland, F. (2019). Introduction: New Insights into the Antiquities Market. International Journal of Cultural Property, 26(3), 211–225. https://doi.org/10.1017/S0940739119000237
 
-Inside the hunt for Iraq’s looted treasures. (2019, July 10). Retrieved September 27, 2019, from The Independent website: https://www.independent.co.uk/news/world/middle-east/iraq-archaeology-museum-antiquities-looting-a8996676.html
+Hall, R. (2019). Inside the hunt for Iraq’s looted treasures. Retrieved September 27, 2019, from The Independent website: https://www.independent.co.uk/news/world/middle-east/iraq-archaeology-museum-antiquities-looting-a8996676.html
 
 Jenkins, J. L., Marquardson, J., Proudfoot, J. G., Valacich, J. S., Golob, E., & Nunamaker, J. F. (2013). The Checkpoint Simulation: A Tool for Informing Border Patrol Checkpoint Design and Resource Allocation. 2013 European Intelligence and Security Informatics Conference, 252–255. https://doi.org/10.1109/EISIC.2013.65
 
-Jordan, C. (2016, December 17). New leads on looted Middle Eastern antiquities [Text]. Retrieved September 27, 2019, from TheHill website: https://thehill.com/blogs/congress-blog/foreign-policy/310831-new-leads-on-looted-middle-eastern-antiquities
+Jordan, C. (2016, December 17). New leads on looted Middle Eastern antiquities. Retrieved September 27, 2019, from TheHill website: https://thehill.com/blogs/congress-blog/foreign-policy/310831-new-leads-on-looted-middle-eastern-antiquities
 
 Latek, M. M., Rizi, S. M. M., Crooks, A., & Fraser, M. (2012). Social Simulations for Border Security. 2012 European Intelligence and Security Informatics Conference, 340–345. https://doi.org/10.1109/EISIC.2012.50
 
@@ -579,13 +579,11 @@ Sellers, W. I., Hill, R. A., & Logan, B. S. (2007). An agent-based model of grou
 
 Sørensen, M. L. S., & Viejo-Rose, D. (Eds.). (2015). War and Cultural Heritage: Biographies of Place. New York, NY: Cambridge University Press.
 
-Stealing from history: The looting and destruction of Iraqi and Syrian heritage concern us all. (n.d.). Retrieved April 2, 2019, from The National website: https://www.thenational.ae/arts-culture/stealing-from-history-the-looting-and-destruction-of-iraqi-and-syrian-heritage-concern-us-all-1.308011
+Dennehy, J. (2014). Stealing from history: The looting and destruction of Iraqi and Syrian heritage concern us all. Retrieved April 2, 2019, from The National website: https://www.thenational.ae/arts-culture/stealing-from-history-the-looting-and-destruction-of-iraqi-and-syrian-heritage-concern-us-all-1.308011
 
-Sullivan, B. L. (n.d.). Stolen artifacts finding way into the world’s art markets. Retrieved September 27, 2019, from Baltimoresun.com website: https://www.baltimoresun.com/bal-te.fbi22apr22-story.html
+Sullivan, B. L. (2003). Stolen artifacts finding way into the world’s art markets. Retrieved September 27, 2019, from Baltimoresun.com website: https://www.baltimoresun.com/bal-te.fbi22apr22-story.html
 
 Swann, S. (2019, May 2). “Loot-to-order” antiquities sold on Facebook. BBC News. Retrieved from https://www.bbc.com/news/world-middle-east-47628369
-
-Visconti, A. (n.d.). Professor of Criminal Law, University of Naples II, Italy; Visiting Professor, Queen Mary University of London, UK; ISPAC Deputy Chair and Director. 210.
 
 Wang, X. Z. (2018). The Comparison of Three Algorithms in Shortest Path Issue. Journal of Physics: Conference Series, 1087, 022011. https://doi.org/10.1088/1742-6596/1087/2/022011
 
