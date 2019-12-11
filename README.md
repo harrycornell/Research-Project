@@ -281,7 +281,7 @@ The routes were defined next using the maps that were generated.  Each of the 67
 
 ### 6.1 Route Decision Questionnaire Responses
 
-The results for the questionnaire were gathered from a pilot study using the class as subjects.  The different route attributes had their respective Score and Ranking attributes averaged.  The Low/High value for each attribute was taken by using the value that had the majority of the responses.  The averaged information is shown below.  A higher Score attribute value showed that the attribute was more important.  A lower Ranking for the attribute showed that the attribute was more important when compared to the other attributes.
+The results for the questionnaire were gathered from a pilot study using the class as subjects.  The different route attributes had their respective Score and Ranking attributes averaged.  The Low/High value for each attribute was taken by using the value that had the majority of the responses.  The averaged information is shown below.  A higher Score attribute value showed that the attribute was more important.  A lower Ranking for the attribute showed that the attribute was more important when compared to the other attributes. As can be seen below, the presence of competeing gangs was ranked with the highest importance, lending support to Hypothesis 2. 
 
 | Attribute | Score | Low/High | Ranking |
 | --- | --- | --- | --- |
